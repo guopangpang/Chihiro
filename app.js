@@ -37,3 +37,4 @@ App({
     userInfo: null
   }
 })
+// appid:wx5d656fde40ee9c4bs
