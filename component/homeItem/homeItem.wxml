@@ -1,0 +1,22 @@
+<view class='item_container'>
+    <image src="{{innerText.img}}" class='item_image'></image>
+    <view class='rigjt_word'>
+      <view class="inner">{{innerText.title}}</view>
+      <view class='info'>{{innerText.info}}</view>
+
+      <view class='person'>
+        <image class='header_image' src='{{innerText.header_img}}'></image>
+        <text class='name'>{{innerText.name}}</text>
+      </view>
+
+      <view class='tag'>
+        <view class='time'>{{innerText.time}}</view>
+        <view class='pay_person'>{{innerText.pay_person}}人付款</view>
+        <view class='good_present'>{{innerText.good_present}}好评</view>
+      </view>
+      
+    </view>
+
+</view>
+
+<slot></slot>

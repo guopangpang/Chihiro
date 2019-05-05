@@ -1,0 +1,23 @@
+.header_search_container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 0 20rpx;
+  justify-content: space-between;
+  width: calc(100% - 40rpx);
+  height: 80rpx;
+  align-items: center;
+  background-color: #ededed;
+  font-size: 25rpx
+}
+.header_search_container .search_input{
+  width: 260rpx;
+  height: 20rpx;
+  border: 1px solid white;
+  border-radius:30rpx;
+  margin-left: 180rpx;
+  padding: 0 20rpx;
+  background-color: white;
+  font-size: 20rpx
+}

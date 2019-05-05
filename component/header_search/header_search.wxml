@@ -1,0 +1,6 @@
+<view class='header_search_container'>
+  <view>待命名</view>
+  <input class='search_input' placeholder='搜索'></input>
+  <view>取消</view>
+</view>
+

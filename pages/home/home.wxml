@@ -1,0 +1,8 @@
+<header-search></header-search>
+<view class='home_container'>
+  <view class='small_tip'>没有满意的搜索结果？试试换一下其他关键词搜索</view>
+  <home-item  wx:for='{{search_list}}' inner-text="{{ item }}"></home-item>
+</view>
+<footer></footer>
+
+

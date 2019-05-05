@@ -1,0 +1,14 @@
+<view class='foot_containt'>
+  <view class='foot_item'>
+    <image class='foot_item_image' src='../../image/image.jpg'></image>
+    <text class='foot_item_text'>找人</text>
+  </view>
+  <view class='foot_item'>
+    <image class='foot_item_image' src='../../image/image.jpg'></image>
+    <text class='foot_item_text'>找问题</text>
+  </view>
+  <view class='foot_item' bindtap='gotoMy'>
+    <image class='foot_item_image' src='../../image/image.jpg'></image>
+    <text class='foot_item_text'>我</text>
+  </view>
+</view>
