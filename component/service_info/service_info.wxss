@@ -1,0 +1,48 @@
+.service_container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15rpx;
+    width: calc(100% - 30rpx);
+}
+.service_title{
+    font-weight: bold;
+    font-size: 35rpx;
+    margin-top: 20rpx;
+}
+.service_person_info{
+    display: flex;
+    align-items: center;
+    margin-top: 10rpx;
+}
+.service_person_headerImg{
+    width: 35rpx;
+    height: 35rpx;
+    border-radius: 50%;
+}
+.service_person_name{
+    font-size: 30rpx;
+    margin-left: 15rpx;
+}
+.service_info{
+    display:-webkit-box;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp: 100;
+    -webkit-box-orient: vertical;
+    font-size: 30rpx;
+    color: #666;
+    margin-top: 10rpx;
+    /*width:calc(100% - 30rpx);*/
+}
+.service_image_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10rpx;
+}
+.service_info_image{
+    width: 32.03%;
+    height: 200rpx;
+    margin: 10rpx 10.5rpx 0 0 ;
+}

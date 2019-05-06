@@ -1,0 +1,16 @@
+<view class="service_container">
+    <view class="service_title">北大自动化学院</view>
+    <view class="service_person_info">
+        <image src="../../image/image.jpg" class="service_person_headerImg"></image>
+        <text class="service_person_name">暗*月</text>
+    </view>
+    <text class="service_info">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</text>
+    <view class="service_image_list">
+        <image class="service_info_image" src="../../image/image.jpg"></image>
+        <image class="service_info_image" src="../../image/image.jpg"></image>
+        <image class="service_info_image" src="../../image/image.jpg"></image>
+        <image class="service_info_image" src="../../image/image.jpg"></image>
+        <image class="service_info_image" src="../../image/image.jpg"></image>
+    </view>
+    <slot></slot>
+</view>
