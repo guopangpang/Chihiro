@@ -1,0 +1,59 @@
+.my_container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500rpx;
+  background-color: blue
+}
+.my_back{
+  position: fixed;
+  top: 20rpx;
+  left: 20rpx;
+  font-size: 30rpx;
+  color: white
+}
+.my_header_img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.my_image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%
+}
+.my_name{
+  margin-top: 15rpx;
+  font-size: 30rpx
+}
+.pay_info{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 450rpx;
+  height: 100rpx;
+  width: 500rpx;
+  border-radius: 50rpx;
+  background-color: #fff;
+}
+.money_info{
+
+}
+.yu_e{
+  font-size: 30rpx
+}
+.leiji{
+  color:#858585;
+  font-size: 25rpx
+}
+.mingxi{
+  color: #00a2f7;
+  font-size: 35rpx
+}
+.tixian{
+  color: #00a2f7;
+  font-size: 35rpx
+}
