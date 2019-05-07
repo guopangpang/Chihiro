@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "header": "../../component/header/header",
-    "service-info": "../../component/service_info/service_info"
+    "service-info": "../../component/service_info/service_info",
+    "review-item":"../../component/reviewItem/reviewItem"
   }
 }

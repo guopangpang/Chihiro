@@ -1,0 +1,2 @@
+<header></header>
+<view>{{question_detail.title}}</view>
