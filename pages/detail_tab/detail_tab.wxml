@@ -19,10 +19,10 @@
         <swiper-item class='swiper'>
             <service-info>
                 <view class="time_money">
-                    <text>最近编辑时间：2019年5月6日</text>
+                    <text class="bianji_time">最近编辑时间：2019年5月6日</text>
                     <view>
-                        <text>1元 （非服务费）</text>
-                        <text>1000次购买</text>
+                        <text class="danjai">1元 （非服务费）</text>
+                        <text class="pay_times">1000次购买</text>
                     </view>
                 </view>
             </service-info>
@@ -35,3 +35,4 @@
         </swiper-item>
     </swiper>
 </view>
+<view class="zixun">立即咨询</view>
