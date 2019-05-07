@@ -1,14 +1,31 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp();
 
 Page({
     data: {
         currentIndex: 0,
-        "firstList": ["LXT", "LXT", "LXT", "LXT", "LXT", "LXT"],
-        "secondList": ["GFF", "GFF", "GFF", "GFF", "GFF", "GFF", "GFF", "GFF"]
+        serviceList:[],
+        reviewList:[]
     },
     //swiper切换时会调用
+    onLoad(){
+      let obj = {
+          headerImg:'../../image/image3.jpg',
+          name:'暗*月',
+          time:'2019年5月7日',
+          star:'5',
+          title:'北大自动化',
+          info:'想加入我，们昂想加入我们昂想加，入我们昂想加入我们昂想加。入我们昂'
+      };
+      let reviewList = this.data.reviewList;
+      for(let i =0;i<6;i++ ){
+          reviewList.push(obj)
+      }
+      this.setData({
+          reviewList:reviewList
+      })
+    },
     pagechange: function (e) {
         console.log('pagechange',e.detail);
         if ("touch" === e.detail.source) {

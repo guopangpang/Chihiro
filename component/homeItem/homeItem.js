@@ -11,8 +11,10 @@ Component({
     },
     methods: {
         // 这里是一个自定义方法
-        aaa(){
-            console.log(222)
+        gotoDatail(){
+            wx.navigateTo({
+                url:'../../pages/detail_tab/detail_tab'
+            })
         }
     }
 })

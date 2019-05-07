@@ -1,4 +1,4 @@
-<view class='item_container' bindtap="gotoDatail">
+<view class='item_container'>
     <image src="{{innerText.img}}" class='item_image'></image>
     <view class='rigjt_word'>
       <view class="inner">{{innerText.title}}</view>

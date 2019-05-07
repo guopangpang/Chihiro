@@ -1,0 +1,7 @@
+{
+  "usingComponents":{
+    "header-search":"../../component/header_search/header_search",
+    "footer":"../../component/footer/footer",
+    "question-item": "../../component/questionItem/questionItem"
+  }
+}

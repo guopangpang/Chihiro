@@ -4,7 +4,7 @@
         <image src="../../image/image.jpg" class="service_person_headerImg"></image>
         <text class="service_person_name">暗*月</text>
     </view>
-    <text class="service_info">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</text>
+    <text class="service_info">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</text>
     <view class="service_image_list">
         <image class="service_info_image" src="../../image/image.jpg"></image>
         <image class="service_info_image" src="../../image/image.jpg"></image>

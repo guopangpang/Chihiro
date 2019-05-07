@@ -1,0 +1,12 @@
+<view class="review_item_container">
+    <view class="review_preson">
+        <image class="review_person_headerImg" src="{{item.headerImg}}"></image>
+        <text class="review_person_name">{{item.name}}</text>
+    </view>
+    <view class="review_time">
+        <text class="review_new_time">{{item.time}}</text>
+        <text class="review_star">{{item.star}}星</text>
+    </view>
+    <view class="review_title">{{item.title}}</view>
+    <view class="review_info">{{item.info}}</view>
+</view>

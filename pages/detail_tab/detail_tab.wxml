@@ -29,9 +29,7 @@
         </swiper-item>
         <!--平论-->
         <swiper-item class='swiper' class='swiper'>
-            <view wx:for="{{secondList}}" class='recordItem'>
-                <view class='name'>昵称：{{item}}</view>
-            </view>
+            <review-item wx:for="{{reviewList}}" item="{{item}}"></review-item>
         </swiper-item>
     </swiper>
 </view>
