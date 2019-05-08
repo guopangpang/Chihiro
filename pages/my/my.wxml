@@ -1,16 +1,23 @@
-<view class='my_container'>
-  <view class='my_back'>待命名</view>
-  <view class='my_header_img'>
-    <image class='my_image' src='../../image/image.jpg'></image>
-    <text class='my_name'>暗月</text>
-  </view>
-  <view class='pay_info'>
-    <view class='money_info'>
-      <view class='yu_e'>余额：￥25.00</view>
-      <view class='leiji'>累计：￥1350.00</view>
+<view class='my_containter'>
+  <view class='my_header'>
+    <view class='my_back'>千寻</view>
+    <view class='my_header_img'>
+      <image class='my_image' src='{{person.headerImg}}'></image>
+      <text class='my_name'>{{person.name}}</text>
     </view>
-    <view class='mingxi'>明细</view>
-    <view class='tixian'>提现</view>
+    <view class='pay_info'>
+      <view class='money_info'>
+        <view class='yu_e'>余额：￥{{person.balance}}</view>
+        <view class='leiji'>累计：￥{{person.grandTotal}}</view>
+      </view>
+      <view class='mingxi'>明细</view>
+      <view class='tixian'>提现</view>
+    </view>
   </view>
+
+  <view class="project_list">
+    <cell wx:for="{{projectList}}" wx:key="index" cell_info="{{item}}"></cell>
+  </view>
+
 </view>
 <footer></footer>

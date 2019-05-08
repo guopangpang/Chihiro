@@ -1,0 +1,5 @@
+<view class="cell_containter">
+    <image class="cell_left_img" src="{{cell_info.left_img}}"></image>
+    <image class="cell_right_img" src="{{cell_info.right_img}}"></image>
+    <view class="cell_name">{{cell_info.name}}</view>
+</view>

@@ -1,6 +1,6 @@
 Component({
     properties: {
-        item: {
+        cell_info: {
             type: Object,
             value: 'default value',
         }

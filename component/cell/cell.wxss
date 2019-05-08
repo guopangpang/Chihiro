@@ -1,0 +1,25 @@
+.cell_containter{
+    margin: 0 0 20rpx;
+    overflow: hidden;
+    height: 80rpx;
+    line-height: 80rpx;
+    padding: 0 40rpx;
+    background-color: red;
+}
+.cell_left_img{
+    margin-top: 25rpx;
+    float: left;
+    height: 30rpx;
+    width: 30rpx;
+}
+.cell_right_img{
+    margin-top: 25rpx;
+    float: right;
+    height: 30rpx;
+    width: 30rpx;
+}
+.cell_name{
+    padding-left: 60rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+}
