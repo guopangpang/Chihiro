@@ -17,19 +17,19 @@
     <swiper class='swiper' bindchange='pagechange' current='{{currentIndex}}'>
         <!--服务-->
         <swiper-item class='swiper'>
-            <service-info>
+            <service-info servieDetail="{{serviceList}}">
                 <view class="time_money">
-                    <text class="bianji_time">最近编辑时间：2019年5月6日</text>
+                    <text class="bianji_time">最近编辑时间：{{serviceList.time}}</text>
                     <view>
-                        <text class="danjai">1元 （非服务费）</text>
-                        <text class="pay_times">1000次购买</text>
+                        <text class="danjai">{{serviceList.paid}}元 （非服务费）</text>
+                        <text class="pay_times">{{serviceList.frequency}}次购买</text>
                     </view>
                 </view>
             </service-info>
         </swiper-item>
         <!--平论-->
         <swiper-item class='swiper' class='swiper'>
-            <review-item wx:for="{{reviewList}}" item="{{item}}"></review-item>
+            <review-item wx:for="{{reviewList}}" wx:key="index" item="{{item}}"></review-item>
         </swiper-item>
     </swiper>
 </view>

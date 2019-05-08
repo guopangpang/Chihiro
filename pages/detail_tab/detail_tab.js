@@ -24,7 +24,21 @@ Page({
       }
       this.setData({
           reviewList:reviewList
-      })
+      });
+
+      let obj_service = {
+          headerImg:'../../image/image3.jpg',
+          name:'暗*月',
+          time:'2019年5月7日',
+          paid:1,
+          title:'北大自动化',
+          info:'想加入我，们昂想加入我们昂想加，入我们昂想加入我们昂想加。入我们昂,入我们昂,入我们昂入我们昂入我们昂',
+          imgList:['../../image/image3.jpg','../../image/image3.jpg','../../image/image3.jpg','../../image/image3.jpg','../../image/image3.jpg'],
+          frequency:1000
+      };
+      this.setData({
+          serviceList:obj_service
+      });
     },
     pagechange: function (e) {
         console.log('pagechange',e.detail);

@@ -1,6 +1,6 @@
 Component({
     properties: {
-        innerText: {
+        servieDetail: {
             type: Object,
             value: 'default value',
         }
@@ -12,8 +12,7 @@ Component({
     methods: {
         // 这里是一个自定义方法
         aaa(){
-            //ddd
-            console.log(222)
+            console.log(this.properties.servieDetail)
         }
     }
 });
