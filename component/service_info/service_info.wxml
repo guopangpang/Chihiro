@@ -6,7 +6,7 @@
     </view>
     <text class="service_info">{{servieDetail.info}}</text>
     <view class="service_image_list">
-        <image wx:for='{{servieDetail.imgList}}' class="service_info_image" src="{{item}}"></image>
+        <image wx:for='{{servieDetail.imgList}}' wx:key="index" class="service_info_image" src="{{item}}"></image>
     </view>
     <slot></slot>
 </view>

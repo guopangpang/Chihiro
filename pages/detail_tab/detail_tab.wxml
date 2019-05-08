@@ -28,7 +28,7 @@
         </swiper-item>
         <!--平论-->
         <swiper-item class='swiper' class='swiper'>
-            <review-item wx:for="{{reviewList}}" item="{{item}}"></review-item>
+            <review-item wx:for="{{reviewList}}" wx:key="index" item="{{item}}"></review-item>
         </swiper-item>
     </swiper>
 </view>
