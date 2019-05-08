@@ -1,0 +1,19 @@
+<view class="service_detail_body">
+    <swiper class="service_detail_swiper_item"
+            autoplay="{{autoplay}}" indicator-dots="{{indicator_dots}}" interval="{{interval}}" indicator-color="{{indicator_color}}" indicator-active-color="{{indicator_active_color}}">
+        <swiper-item wx:for="{{serviceDetail.imgList}}" wx:key="index" class="service_detail_swiper_item">
+            <image src="{{item}}" class="service_detail_swiper_image"></image>
+        </swiper-item>
+    </swiper>
+
+    <view class="service_detail_container">
+        <view class="consultingFee">
+            <view class="consultingFee_moeny">￥{{serviceDetail.paid}}</view>
+            <view class="consultingFee_word">仅咨询费</view>
+        </view>
+        <view class="service_detail_title">{{serviceDetail.title}}</view>
+        <view class="service_detail_info">{{serviceDetail.info}}</view>
+    </view>
+    <view>22</view>
+</view>
+

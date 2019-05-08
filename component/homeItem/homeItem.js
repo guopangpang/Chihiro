@@ -1,6 +1,6 @@
 Component({
     properties: {
-        innerText: {
+        homeItem: {
             type: Object,
             value: 'default value',
         }
@@ -13,7 +13,7 @@ Component({
         // 这里是一个自定义方法
         gotoDatail(){
             wx.navigateTo({
-                url:'../../pages/detail_tab/detail_tab'
+                url:'../../pages/service_detail/service_detail'
             })
         }
     }

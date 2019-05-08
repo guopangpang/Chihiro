@@ -8,16 +8,16 @@
   width: calc(100% - 40rpx);
   height: 80rpx;
   align-items: center;
-  background-color: #ededed;
+  justify-content: center;
+  background-color: #fff;
   font-size: 25rpx
 }
 .header_search_container .search_input{
-  width: 260rpx;
+  width: 650rpx;
   height: 20rpx;
   border: 1px solid white;
   border-radius:30rpx;
-  margin-left: 180rpx;
   padding: 0 20rpx;
-  background-color: white;
+  background-color: #ededed;
   font-size: 20rpx
 }

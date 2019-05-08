@@ -1,6 +1,6 @@
 Component({
     properties: {
-        servieDetail: {
+        reviewHeader: {
             type: Object,
             value: 'default value',
         }
@@ -11,8 +11,10 @@ Component({
     },
     methods: {
         // 这里是一个自定义方法
-        aaa(){
-            console.log(this.properties.servieDetail)
+        gotoMy(){
+            wx.navigateTo({
+                url:'../../pages/my/my'
+            })
         }
     }
-});
+})

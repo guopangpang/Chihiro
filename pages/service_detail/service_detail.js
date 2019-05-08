@@ -5,8 +5,13 @@ const app = getApp();
 Page({
     data: {
         currentIndex: 0,
-        serviceList:[],
-        reviewList:[]
+        serviceDetail:[],
+        reviewList:[],
+        autoplay:true,
+        indicator_dots:true,
+        interval:5000,
+        indicator_color:'#ededed',
+        indicator_active_color:'#03abf6'
     },
     //swiper切换时会调用
     onLoad(){
@@ -30,14 +35,14 @@ Page({
           headerImg:'../../image/image3.jpg',
           name:'暗*月',
           time:'2019年5月7日',
-          paid:1,
+          paid:'1.00',
           title:'北大自动化',
           info:'想加入我，们昂想加入我们昂想加，入我们昂想加入我们昂想加。入我们昂,入我们昂,入我们昂入我们昂入我们昂',
-          imgList:['../../image/image3.jpg','../../image/image3.jpg','../../image/image3.jpg','../../image/image3.jpg','../../image/image3.jpg'],
+          imgList:['../../image/image3.jpg','../../image/image2.jpg','../../image/image4.jpg','../../image/image.jpg','../../image/image2.jpg'],
           frequency:1000
       };
       this.setData({
-          serviceList:obj_service
+          serviceDetail:obj_service
       });
     },
     pagechange: function (e) {

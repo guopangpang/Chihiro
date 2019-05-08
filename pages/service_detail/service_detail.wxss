@@ -1,0 +1,55 @@
+.service_detail_body{
+    background-color: #ededed;
+}
+.service_detail_swiper{
+    width: 100vw;
+    height: 85.7vw;
+}
+.service_detail_swiper_item{
+    width: 100vw;
+    height: 85.7vw;
+}
+.service_detail_swiper_image{
+    width: 100vw;
+    height: 85.7vw;
+}
+.service_detail_container{
+    padding: 60rpx 40rpx 0;
+    background-color: #fff;
+}
+.consultingFee{
+    display: flex;
+    align-items: center;
+}
+.consultingFee_moeny{
+    font-size: 36rpx;
+    color: #fd5001;
+}
+.consultingFee_word{
+    margin-left: 10rpx;
+    height: 40rpx;
+    width:130rpx;
+    text-align: center;
+    border-radius: 20rpx;
+    line-height: 40rpx;
+    font-size: 26rpx;
+    color: #fd5100;
+    background-color: #fff2ec;
+}
+.service_detail_title{
+    margin-top: 10rpx;
+    font-size: 40rpx;
+    font-weight: bold;
+}
+.service_detail_info{
+    display:-webkit-box;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp: 1000;
+    -webkit-box-orient: vertical;
+    padding: 20rpx 0 40rpx;
+    font-size: 22rpx;
+    color: #020202;
+}

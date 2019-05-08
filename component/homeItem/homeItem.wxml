@@ -1,22 +1,19 @@
-<view class='item_container' bindtap="gotoDatail">
-    <image src="{{innerText.img}}" class='item_image'></image>
-    <view class='rigjt_word'>
-      <view class="inner">{{innerText.title}}</view>
-      <view class='info'>{{innerText.info}}</view>
 
-      <view class='person'>
-        <image class='header_image' src='{{innerText.header_img}}'></image>
-        <text class='name'>{{innerText.name}}</text>
-      </view>
-
-      <view class='tag'>
-        <view class='time'>{{innerText.time}}</view>
-        <view class='pay_person'>{{innerText.pay_person}}人付款</view>
-        <view class='good_present'>{{innerText.good_present}}好评</view>
-      </view>
-      
+<view class="homeitem_containter" bindtap="gotoDatail">
+    <view class="homeitem_title">{{homeItem.title}}</view>
+    <view class="homeitem_second_body">
+        <view class="homeitem_thrid_body">
+            <view class="homeitem_info">{{homeItem.info}}</view>
+            <view class="homeitem_fouce_body">
+                <image class="homeitem_headerImg" src="{{homeItem.header_img}}"></image>
+                <text class="homeitem_name">{{homeItem.name}}</text>
+            </view>
+            <view class="homeitem_fivth_body">
+                <view class="homeitem_time">{{homeItem.time}}</view>
+                <view class="pay_person">{{homeItem.pay_person}}人付款</view>
+                <view class='good_present'>{{homeItem.good_present}}好评</view>
+            </view>
+        </view>
+        <image class="homeitem_img" src="{{ homeItem.img }}"></image>
     </view>
-
 </view>
-
-<slot></slot>

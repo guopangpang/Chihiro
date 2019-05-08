@@ -1,23 +1,23 @@
-.item_container{
-    display:flex;
-    padding: 15rpx;
-    background-color: #fefcfd;
-    margin-bottom: 15rpx
+.homeitem_containter{
+  /*height: 400rpx;*/
+  margin-bottom: 20rpx;
+  padding: 0 40rpx;
+  background-color: #fff;
 }
-.item_image{
-  width: 210rpx;
-  height:210rpx;
+.homeitem_title{
+  padding-top: 20rpx;
+  font-size: 40rpx;
+  font-weight: bold;
 }
-.rigjt_word{
+.homeitem_second_body{
   display: flex;
-  flex-direction: column;
-  margin: 0 0 0 20rpx
+  justify-content: space-between;
+  margin-top: 20rpx;
 }
-.inner{
-  font-size: 25rpx;
-  font-weight: bold
+.homeitem_thrid_body{
+  width: 400rpx;
 }
-.info{
+.homeitem_info{
   display:-webkit-box;
   overflow:hidden;
   text-overflow: ellipsis;
@@ -27,34 +27,37 @@
   -webkit-box-orient: vertical;
   font-size: 22rpx;
   color: #666;
-  margin-top: 12rpx;
-  width:430rpx;
+  width:400rpx;
   height:65rpx;
 }
-.person{
+.homeitem_fouce_body{
   display: flex;
-  flex-direction:row;
-  margin-top: 20rpx
+  align-items: center;
+  margin-top: 10rpx;
 }
-.header_image{
-  width: 36rpx;
-  height: 36rpx;
+.homeitem_headerImg{
+  width: 30rpx;
+  height: 30rpx;
   border-radius: 50%;
 }
-.name{
-  line-height: 30rpx;
-  font-size: 25rpx;
-  margin:  0 0 0 15rpx
+.homeitem_name{
+  margin-left: 20rpx;
+  font-size: 20rpx;
 }
-.tag{
-  font-size: 25rpx;
-  color: #666;
+.homeitem_fivth_body{
   display: flex;
-  margin-top: 8rpx
+  margin-top: 10rpx;
+  font-size: 20rpx;
+  padding-bottom: 20rpx;
+}
+.homeitem_time{
+  margin-right: 15rpx;
 }
 .pay_person{
-  margin-left: 15rpx
+  margin-right: 15rpx;
 }
-.good_present{
-  margin-left: 15rpx
+.good_present{}
+.homeitem_img{
+  width: 220rpx;
+  height: 140rpx;
 }
