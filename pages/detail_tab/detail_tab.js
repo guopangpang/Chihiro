@@ -43,5 +43,10 @@ Page({
             //拿到当前索引并动态改变
             currentIndex: e.currentTarget.dataset.idx
         })
+    },
+    gotoAdvisory(){
+        wx.navigateTo({
+            url:''
+        })
     }
 });

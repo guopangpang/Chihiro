@@ -33,4 +33,4 @@
         </swiper-item>
     </swiper>
 </view>
-<view class="zixun">立即咨询</view>
+<view class="advisory" wx:if="{{currentIndex==0}}" bindtap="gotoAdvisory">立即咨询</view>

@@ -73,7 +73,7 @@
 .pay_times{
 
 }
-.zixun{
+.advisory{
     position: fixed;
     bottom: 0;
     left: ;
