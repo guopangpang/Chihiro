@@ -11,9 +11,9 @@ Component({
     },
     methods: {
         // 这里是一个自定义方法
-        gotoMy(){
+        gotoReviewList(){
             wx.navigateTo({
-                url:'../../pages/my/my'
+                url:'../../pages/reviewList/reviewList'
             })
         }
     }

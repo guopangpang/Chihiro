@@ -6,7 +6,7 @@
 }
 .homeitem_title{
   padding-top: 20rpx;
-  font-size: 40rpx;
+  font-size: 36rpx;
   font-weight: bold;
 }
 .homeitem_second_body{

@@ -1,0 +1,4 @@
+<view>
+    <review-header></review-header>
+    <review-item wx:for="{{reviewList}}" wx:key="{{index}}" reviewItem="{{item}}"></review-item>
+</view>

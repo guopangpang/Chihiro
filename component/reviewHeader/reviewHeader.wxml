@@ -1,0 +1,7 @@
+<view class="review_header_container">
+    <view class="review_word">评价({{reviewHeader.total}})</view>
+    <view class="review_right_container">
+        <view class="review_present">好评率<text class="review_present_color">{{reviewHeader.present}}</text></view>
+        <view class="review_all" bindtap="gotoReviewList">查看全部</view>
+    </view>
+</view>

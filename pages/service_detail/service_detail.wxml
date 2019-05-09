@@ -14,6 +14,17 @@
         <view class="service_detail_title">{{serviceDetail.title}}</view>
         <view class="service_detail_info">{{serviceDetail.info}}</view>
     </view>
-    <view>22</view>
+    <review-header reviewHeader="{{review_header}}"></review-header>
+    <review-item reviewItem="{{review}}"></review-item>
+    <view class="question_person">
+        <view class="question_person_img_name">
+            <image class="headerImg" src="{{question_owner.headerImg}}"></image>
+            <view class="name">{{question_owner.name}}</view>
+        </view>
+        <view class="find_service">查看服务</view>
+    </view>
+
+    <view class="service_detail_liubai"></view>
+    <view class="advisory_soon">立即咨询</view>
 </view>
 

@@ -6,7 +6,15 @@ Page({
     data: {
         currentIndex: 0,
         serviceDetail:[],
-        reviewList:[],
+        review:{},
+        review_header:{
+            total:'106',
+            present:'95%'
+        },
+        question_owner:{
+            headerImg:'../../image/image3.jpg',
+            name:'暗*月'
+        },
         autoplay:true,
         indicator_dots:true,
         interval:5000,
@@ -23,12 +31,8 @@ Page({
           title:'北大自动化',
           info:'想加入我，们昂想加入我们昂想加，入我们昂想加入我们昂想加。入我们昂,入我们昂,入我们昂入我们昂入我们昂'
       };
-      let reviewList = this.data.reviewList;
-      for(let i =0;i<6;i++ ){
-          reviewList.push(obj)
-      }
       this.setData({
-          reviewList:reviewList
+          review:obj
       });
 
       let obj_service = {

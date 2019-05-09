@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/question_detail/question_detail",
     "pages/service_detail/service_detail",
-    "pages/my/my",
     "pages/question/question",
+    "pages/question_detail/question_detail",
+    "pages/my/my",
     "pages/logs/logs"
   ],
   "window": {

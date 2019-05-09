@@ -1,40 +1,39 @@
 .review_item_container{
     display: flex;
     flex-direction: column;
-    padding: 0 15rpx;
-    width: calc(100% - 30rpx);
-    margin-top: 20rpx;
+    padding: 0 40rpx;
+    margin-bottom: 20rpx;
+    width: calc(100% - 80rpx);
+    background-color: #fff;
 }
-.review_preson{
+.review_item_second_body{
     display: flex;
     align-items: center;
 }
 .review_person_headerImg{
-    width: 36rpx;
-    height: 36rpx;
+    width: 60rpx;
+    height: 60rpx;
     border-radius: 50%;
 }
+.review_item_thrid_body{
+    display: flex;
+    flex-direction: column;
+    height: 60rpx;
+    margin-left: 30rpx;
+}
 .review_person_name{
-    margin-left: 20rpx;
-    font-size: 35rpx;
-    font-weight: bold;
+    font-size: 24rpx;
+    height: 30rpx;
+}
+.review_item_forue_body{
+    height: 30rpx;
+    font-size: 24rpx;
 }
 .review_time{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10rpx;
-}
-.review_new_time{
-    font-size: 24rpx;
-}
-.review_star{
-    font-size: 24rpx;
+
 }
 .review_title{
-    margin-top: 10rpx;
-    font-size: 25rpx;
-    font-weight: bold;
+    margin-left: 40rpx;
 }
 .review_info{
     display:-webkit-box;
@@ -44,7 +43,8 @@
     white-space: normal !important;
     -webkit-line-clamp: 100;
     -webkit-box-orient: vertical;
-    font-size: 22rpx;
-    color: #666;
-    margin-top: 12rpx;
+    margin-top: 20rpx;
+    font-size: 24rpx;
+    font-weight: bold;
+    padding-bottom: 30rpx;
 }

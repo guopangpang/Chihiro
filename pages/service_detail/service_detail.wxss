@@ -38,7 +38,7 @@
 }
 .service_detail_title{
     margin-top: 10rpx;
-    font-size: 40rpx;
+    font-size: 36rpx;
     font-weight: bold;
 }
 .service_detail_info{
@@ -52,4 +52,54 @@
     padding: 20rpx 0 40rpx;
     font-size: 22rpx;
     color: #020202;
+}
+.question_person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100rpx;
+    margin: 0 0 20rpx;
+    padding: 0 40rpx;
+    background-color: #fff;
+}
+.question_person_img_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180rpx;
+}
+.question_person_img_name .headerImg{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+}
+.question_person_img_name .name{
+    font-size: 30rpx;
+    font-weight: bold;
+}
+.question_person .find_service{
+    height: 50rpx;
+    width: 180rpx;
+    line-height: 50rpx;
+    border-radius: 25rpx;
+    text-align: center;
+    color: #fd5100;
+    background-color: #fff2ec;
+    font-size: 30rpx;
+}
+.service_detail_liubai{
+    height: 300rpx;
+    background-color: #fff;
+}
+.advisory_soon{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 100%;
+    background-color: #eb5000;
+    color: #fff;
+    font-size: 36rpx;
+    text-align: center;
 }

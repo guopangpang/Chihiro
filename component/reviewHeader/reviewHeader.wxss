@@ -1,0 +1,29 @@
+.review_header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40rpx;
+    margin-top: 20rpx;
+    height: 80rpx;
+    background-color: #fff;
+}
+.review_word{
+    font-size: 30rpx;
+    font-weight: bold;
+}
+.review_right_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300rpx;
+}
+.review_present{
+    font-size: 30rpx;
+}
+.review_present_color{
+    color: #f0d3a7;
+}
+.review_all{
+    font-size: 35rpx;
+    color: #2fb1d3;
+}

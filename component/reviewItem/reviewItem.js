@@ -1,6 +1,6 @@
 Component({
     properties: {
-        item: {
+        reviewItem: {
             type: Object,
             value:'defaule value'
         }

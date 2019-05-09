@@ -1,0 +1,6 @@
+{
+  "UsingComponents":{
+    "review-header":"../../component/reviewHeader/reviewHeader",
+    "review-item":"../../component/reviewItem/reviewItem"
+  }
+}
