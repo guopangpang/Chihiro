@@ -1,6 +1,11 @@
 Page({
     data:{
-        reviewList:[]
+        reviewList:[],
+        review_header:{
+            total:'106',
+            present:'95%',
+            showAll:false
+        },
     },
     onLoad(){
         this.changeReviewList()

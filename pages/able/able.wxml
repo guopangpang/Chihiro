@@ -1,0 +1,26 @@
+<view class="able_containter">
+    <view class="able_header_container">
+        <view class="able_header">
+            <image class="able_headerImg" src="{{person_info.img}}"></image>
+            <view class="able_change">修改</view>
+            <view class="able_name_telephone">
+                <view class="able_person_name">{{person_info.name}}</view>
+                <view class="able_person_telephone">联系方式：{{person_info.telephone}}</view>
+            </view>
+        </view>
+    </view>
+
+
+    <view wx:for="{{able_list}}" wx:key="index" class="able_item">
+        <image src="{{item.img}}" class="able_item_img"></image>
+        <view class="able_item_info_body">
+            <view class="able_item_title">{{item.title}}</view>
+            <view class="able_item_info">{{item.info}}</view>
+            <view class="able_item_num">{{item.person_num}}人付款</view>
+            <view class="able_item_bottom">
+                <view class="able_item_money">￥{{item.money}}</view>
+                <view class="able_item_change">修改</view>
+            </view>
+        </view>
+    </view>
+</view>

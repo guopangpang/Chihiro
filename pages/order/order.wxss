@@ -1,0 +1,23 @@
+.order_container{
+
+}
+.order_header_container{
+
+}
+.order_info{
+    position: relative;
+    margin: 0 40rpx;
+    padding-left: 30rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 30rpx;
+}
+.order_info::before{
+    content:' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10rpx;
+    height: 40rpx;
+    background-color: #0b81e1;
+}

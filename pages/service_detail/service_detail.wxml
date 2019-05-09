@@ -21,7 +21,7 @@
             <image class="headerImg" src="{{question_owner.headerImg}}"></image>
             <view class="name">{{question_owner.name}}</view>
         </view>
-        <view class="find_service">查看服务</view>
+        <view class="find_service" bindtap="gotoAbleList">查看服务</view>
     </view>
 
     <view class="service_detail_liubai"></view>

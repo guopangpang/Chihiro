@@ -9,7 +9,8 @@ Page({
         review:{},
         review_header:{
             total:'106',
-            present:'95%'
+            present:'95%',
+            showAll:true
         },
         question_owner:{
             headerImg:'../../image/image3.jpg',
@@ -65,6 +66,11 @@ Page({
         this.setData({
             //拿到当前索引并动态改变
             currentIndex: e.currentTarget.dataset.idx
+        })
+    },
+    gotoAbleList(){
+        wx.navigateTo({
+            url:'../../pages/able/able'
         })
     },
     gotoAdvisory(){

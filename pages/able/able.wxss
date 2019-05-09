@@ -1,0 +1,85 @@
+.able_containter{
+    background-color: #ededed;
+}
+.able_header_container{
+    background-color: #fff;
+}
+.able_header{
+    height: 180rpx;
+    border-radius: 30rpx;
+    background-color: #f2f9ff;
+    margin: 0 40rpx;
+    overflow: hidden;
+}
+.able_headerImg{
+    float: left;
+    width: 140rpx;
+    height: 140rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+.able_change{
+    float: right;
+    margin: 94rpx 40rpx 0 0;
+    font-size: 28rpx;
+    color: #5587b8;
+}
+.able_name_telephone{
+    margin-top: 45rpx;
+    font-size: 26rpx;
+}
+.able_person_name{}
+.able_person_telephone{
+    margin-top: 20rpx;
+}
+
+.able_item{
+    display: flex;
+    justify-content: space-between;
+    /*height: 360rpx;*/
+    padding: 20rpx 40rpx;
+    background-color: #fff;
+    margin-bottom: 20rpx;
+}
+.able_item_img{
+    width: 250rpx;
+    height: 250rpx;
+    border-radius: 30rpx;
+}
+.able_item_info_body{
+    width: 400rpx;
+}
+.able_item_title{
+    font-size: 36rpx;
+    font-weight: bold;
+}
+.able_item_info{
+    display:-webkit-box;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 24rpx;
+    color: #666;
+    width:400rpx;
+    height:95rpx;
+    margin-top: 10rpx;
+}
+.able_item_num{
+    margin-top: 15rpx;
+    font-size: 22rpx;
+}
+.able_item_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rpx;
+    font-size: 30rpx;
+}
+.able_item_money{
+    color: #f78431;
+}
+.able_item_change{
+    color:#5587b8
+}

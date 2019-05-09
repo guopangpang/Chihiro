@@ -9,6 +9,7 @@
 .review_item_second_body{
     display: flex;
     align-items: center;
+    padding-top: 20rpx;
 }
 .review_person_headerImg{
     width: 60rpx;

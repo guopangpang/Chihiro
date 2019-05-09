@@ -1,7 +1,10 @@
 {
   "pages": [
+    "pages/order/order",
     "pages/home/home",
     "pages/service_detail/service_detail",
+    "pages/reviewList/reviewList",
+    "pages/able/able",
     "pages/question/question",
     "pages/question_detail/question_detail",
     "pages/my/my",

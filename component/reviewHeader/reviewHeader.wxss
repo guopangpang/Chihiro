@@ -15,15 +15,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300rpx;
+    width: 320rpx;
 }
 .review_present{
     font-size: 30rpx;
 }
 .review_present_color{
+    margin-left: 10rpx;
     color: #f0d3a7;
 }
 .review_all{
-    font-size: 35rpx;
+    font-size: 30rpx;
     color: #2fb1d3;
 }

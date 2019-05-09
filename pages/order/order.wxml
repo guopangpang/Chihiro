@@ -1,0 +1,10 @@
+<view class="order_container">
+    <view class="order_header_container">
+        <view class="order_info">订单信息</view>
+        <view>
+            <image></image>
+        </view>
+        <view></view>
+    </view>
+
+</view>
