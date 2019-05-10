@@ -1,5 +1,19 @@
 Page({
     data:{
-
+        order_info:{}
+    },
+    onLoad(){
+        let obj = {
+            title:'北京大学自动化学院',
+            img:'../../image/image4.jpg',
+            handle:'1.00',
+            actuallyPay:'1.00',
+            order_id:'201905100001',
+            buyer:'暗月',
+            seller:'暗月'
+        };
+        this.setData({
+            order_info:obj
+        })
     }
 });

@@ -16,6 +16,7 @@
   </view>
 
   <view class="project_list">
+    <!--<cell wx:for="{{projectList}}" wx:key="index" cell_info="{{item}}" style="display: {{ index===0? 'block' :  'none' }}"></cell>-->
     <cell wx:for="{{projectList}}" wx:key="index" cell_info="{{item}}"></cell>
   </view>
 

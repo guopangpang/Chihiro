@@ -1,6 +1,6 @@
 .my_containter{
   height: 100vh;
-  background-color: #f7f5f6;
+  background-color: #ededed;
 }
 .my_header{
   position: relative;

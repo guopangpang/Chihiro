@@ -4,7 +4,7 @@
     height: 80rpx;
     line-height: 80rpx;
     padding: 0 40rpx;
-    background-color: red;
+    background-color: #fff;
 }
 .cell_left_img{
     margin-top: 25rpx;
