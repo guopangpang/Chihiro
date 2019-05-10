@@ -1,5 +1,5 @@
 .cell_containter{
-    margin: 0 0 20rpx;
+    margin: 0 0 10rpx;
     overflow: hidden;
     height: 80rpx;
     line-height: 80rpx;

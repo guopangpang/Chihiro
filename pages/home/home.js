@@ -4,9 +4,7 @@ const app = getApp()
 
 Page({
     data: {
-        motto: 'Hello World',
-        userInfo: {},
-        hasUserInfo: false,
+        name:'找人',
         search_list:[{
             title:'清华自动化机电学系',
             info:'这里的专业为何数一数二，与北大的自动化有什么区别，听听师兄给你耐心解答',

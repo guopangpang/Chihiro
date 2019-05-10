@@ -1,5 +1,6 @@
 Page({
     data:{
+        name:'订单',
         order_info:{}
     },
     onLoad(){

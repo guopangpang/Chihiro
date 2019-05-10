@@ -1,5 +1,6 @@
 Page({
     data:{
+        name:'我的能力',
         person_info:{
             img:'../../image/image3.jpg',
             name:'暗*月',

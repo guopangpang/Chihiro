@@ -4,8 +4,8 @@ const app = getApp();
 
 Page({
     data: {
+        name:'我的',
         person: {
-            name:'',
             headerImg:'',
             balance:'',
             grandTotal:''
@@ -46,6 +46,9 @@ Page({
         },function () {
             console.log('callback')
         });
+        wx.setNavigationBarTitle({
+            title:this.data.name
+        })
     },
     onShow(){
         console.log('onShow')
