@@ -59,7 +59,9 @@ Page({
             pay_person:'233',
             header_img:'../../image/image.jpg',
             img:'../../image/image.jpg'
-        }]
+        }],
+        show_tele:true,
+        telephone:15111111111
     },
     //事件处理函数
     handlerChange:function(){
@@ -104,6 +106,11 @@ Page({
         this.setData({
             userInfo: e.detail.userInfo,
             hasUserInfo: true
+        })
+    },
+    close(){
+        this.setData({
+            show_tele:false
         })
     }
 });
