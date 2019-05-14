@@ -4,5 +4,8 @@
   <home-item  wx:for='{{search_list}}' wx:key="index" homeItem="{{ item }}"></home-item>
 </view>
 <footer></footer>
+<view class="order_success">
+
+</view>
 
 
