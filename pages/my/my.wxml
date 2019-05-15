@@ -16,8 +16,25 @@
   </view>
 
   <view class="project_list">
-    <!--<cell wx:for="{{projectList}}" wx:key="index" cell_info="{{item}}" style="display: {{ index===0? 'block' :  'none' }}"></cell>-->
-    <cell wx:for="{{projectList}}" wx:key="index" cell_info="{{item}}"></cell>
+    <!--<cell wx:for="{{projectList}}" wx:key="index" cell_info="{{item}}"></cell>-->
+    <view>
+      <cell cell_info="{{projectList[0]}}"></cell>
+    </view>
+    <view class="cell_margin">
+      <cell cell_info="{{projectList[1]}}"></cell>
+    </view>
+    <view>
+      <cell cell_info="{{projectList[2]}}"></cell>
+    </view>
+    <view class="cell_margin">
+      <cell cell_info="{{projectList[3]}}"></cell>
+    </view>
+    <view>
+      <cell cell_info="{{projectList[4]}}"></cell>
+    </view>
+    <view class="cell_margin">
+      <cell cell_info="{{projectList[5]}}"></cell>
+    </view>
   </view>
 
 </view>
