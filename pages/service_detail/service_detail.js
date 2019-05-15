@@ -73,9 +73,9 @@ Page({
             url:'../../pages/able/able'
         })
     },
-    gotoAdvisory(){
+    gotoOrder(){
         wx.navigateTo({
-            url:''
+            url:'../../pages/order/order'
         })
     }
 });

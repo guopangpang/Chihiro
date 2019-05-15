@@ -1,6 +1,7 @@
 .home_container{
   background-color: #f7f5f6;
-  margin: 80rpx 0;
+  margin-top: 120rpx;
+  padding-bottom: 120rpx;
 }
 .small_tip{
   height: 30rpx;
@@ -21,7 +22,7 @@
 .background_image_phone{
   position: fixed;
   top: calc(50vh - 53vw);
-  left: 10vw;
+  left: 12vw;
   width: 80vw;
   height: 106vw;
 }

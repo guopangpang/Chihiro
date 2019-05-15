@@ -25,6 +25,6 @@
     </view>
 
     <view class="service_detail_liubai"></view>
-    <view class="advisory_soon">立即咨询</view>
+    <view class="advisory_soon" bindtap="gotoOrder">立即咨询</view>
 </view>
 
