@@ -7,7 +7,9 @@
     "pages/reviewList/reviewList",
     "pages/able/able",
     "pages/question/question",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/helpCenter/helpCenter",
+    "pages/aboutUs/aboutUs"
   ],
   "window": {
     "backgroundTextStyle": "light",

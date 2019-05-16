@@ -1,0 +1,26 @@
+/* pages/helpCenter/helpCenter.wxss */
+.info_box {
+    line-height: 117rpx;
+    padding-left: 42rpx;
+    border-bottom: 2rpx solid #eee;
+    font-size: 33rpx;
+    font-family: SimHei;
+    font-weight: 400;
+    color: rgba(3,3,3,1);
+}
+.title {
+    
+}
+.arrow {
+    width: 30rpx;
+    height: 21rpx;
+    float: right;
+    padding-right: 42rpx;
+    padding-top: 55rpx;
+}
+.answer {
+    width: 86%;
+    margin: 0 auto;
+    font-size: 32rpx;
+    margin-top: -40rpx;
+}

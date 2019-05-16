@@ -1,0 +1,8 @@
+<!--pages/aboutUs/aboutUs.wxml-->
+<view>
+    <view class="image_box">
+        <image src="../../image/logo.png" class="logo"></image>
+    </view>
+    <view class="topic">任何经验都值得学习</view>
+    <view class="version">版本: 1.2.0</view>
+</view>

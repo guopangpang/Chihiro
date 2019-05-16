@@ -1,0 +1,10 @@
+<view>  
+  <view wx:for="{{questionList}}" wx:key="{{index}}" class="info_box"> 
+     <view class="title" bindtap="showContent" id="{{item.id}}">
+        <text>{{item.title}}</text>
+        <image wx:if="{{!item.show}}" src="../../image/down_arrow.png" class="arrow"></image>
+        <image wx:else src="../../image/top_arrow.png" class="arrow"></image>
+     </view> 
+     <view class="answer" wx:if="{{item.show}}">{{item.answer}}</view>  
+  </view>
+</view>
