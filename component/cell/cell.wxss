@@ -9,10 +9,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12vw;
+    width: 8vw;
 }
 .cell_left_img{
-    height: 40rpx;
+    height: 30rpx;
+    width: 30rpx;
 }
 .cell_right{
     display: flex;
@@ -22,11 +23,12 @@
 }
 .cell_right_img{
     height: 30rpx;
-    width: 23.7rpx;
+    width: 18rpx;
 }
 .cell_name{
     width: 76vw;
-    padding-left: 6wv;
+    /*margin-left: 5vw;*/
+    padding-left: 5vw;
     line-height: 80rpx;
     text-align: left;
     font-size: 30rpx;
@@ -37,12 +39,12 @@
     display: flex;
 }
 .border_ffffff{
-    width: 12vw;
+    width: 16vw;
     height: 1px;
     background-color: #ffffff;
 }
 .border_ededed{
-    width: 88vw;
+    width: 84vw;
     height: 1px;
     background-color: #ededed;
 }
