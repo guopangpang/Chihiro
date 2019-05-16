@@ -7,6 +7,7 @@
     "pages/service_detail/service_detail",
     "pages/reviewList/reviewList",
     "pages/question/question",
+    "pages/cropper/cropper",
     "pages/logs/logs"
   ],
   "window": {
