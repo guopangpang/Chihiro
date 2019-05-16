@@ -1,6 +1,7 @@
 .home_container{
   background-color: #f7f5f6;
-  margin: 80rpx 0;
+  margin-top: 120rpx;
+  padding-bottom: 120rpx;
 }
 .small_tip{
   height: 30rpx;
@@ -8,4 +9,42 @@
   font-size: 20rpx;
   background-color:#f7f5f6;
   text-align: center 
+}
+.home_background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.4;
+}
+.background_image_phone{
+  position: fixed;
+  top: calc(50vh - 53vw);
+  left: 12vw;
+  width: 80vw;
+  height: 106vw;
+}
+.close_img{
+  position: absolute;
+  top: 0;
+  right: 5vw;
+  width: 50rpx;
+  height: 50rpx;
+}
+.order_telephone{
+  position: absolute;
+  bottom: 28.6vw;
+  left: 34vw;
+  font-size: 20rpx;
+  color: #fff;
+}
+.copy_space{
+  position: absolute;
+  bottom: 28.6vw;
+  left: 53vw;
+  background-color: transparent;
+  width: 50rpx;
+  height: 25rpx;
 }

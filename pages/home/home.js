@@ -59,18 +59,17 @@ Page({
             pay_person:'233',
             header_img:'../../image/image.jpg',
             img:'../../image/image.jpg'
-        }]
+        }],
+        show_tele:true,
+        telephone:'15111111111'
     },
     //事件处理函数
-    handlerChange:function(){
-      console.log(222)
-    },
-    bindViewTap: function() {
-        wx.navigateTo({
-            url: '../logs/logs'
-        })
-    },
-    onLoad: function () {
+    onLoad(options) {
+        if(options.isShow){
+            this.setData({
+                show_tele:options.isShow
+            });
+        }
         if (app.globalData.userInfo) {
             this.setData({
                 userInfo: app.globalData.userInfo,
@@ -104,6 +103,23 @@ Page({
         this.setData({
             userInfo: e.detail.userInfo,
             hasUserInfo: true
+        })
+    },
+    close(){
+        this.setData({
+            show_tele:false
+        })
+    },
+    copy(){
+        wx.setClipboardData({
+            data: this.data.telephone,
+            success(res) {
+                wx.getClipboardData({
+                    success(res) {
+                        console.log(res.data) // data
+                    }
+                })
+            }
         })
     }
 });

@@ -22,5 +22,5 @@
     <view class="order_buyer">收款方：{{order_info.buyer}}</view>
     <view class="order_seller">服务方：{{order_info.seller}}</view>
 
-    <view class="up_order">提交订单</view>
+    <view class="up_order" bindtap="updataOrder">提交订单</view>
 </view>

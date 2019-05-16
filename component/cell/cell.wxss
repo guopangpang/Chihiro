@@ -1,25 +1,48 @@
 .cell_containter{
-    margin: 0 0 10rpx;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
     height: 80rpx;
-    line-height: 80rpx;
     padding: 0 40rpx;
     background-color: #fff;
 }
+.cell_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+}
 .cell_left_img{
-    margin-top: 25rpx;
-    float: left;
-    height: 30rpx;
-    width: 30rpx;
+    height: 40rpx;
+}
+.cell_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
 }
 .cell_right_img{
-    margin-top: 25rpx;
-    float: right;
     height: 30rpx;
-    width: 30rpx;
+    width: 23.7rpx;
 }
 .cell_name{
-    padding-left: 60rpx;
+    width: 76vw;
+    padding-left: 6wv;
+    line-height: 80rpx;
+    text-align: left;
     font-size: 30rpx;
     font-weight: bold;
+}
+
+.border{
+    display: flex;
+}
+.border_ffffff{
+    width: 12vw;
+    height: 1px;
+    background-color: #ffffff;
+}
+.border_ededed{
+    width: 88vw;
+    height: 1px;
+    background-color: #ededed;
 }

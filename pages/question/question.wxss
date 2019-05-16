@@ -1,6 +1,7 @@
 .question_container{
     background-color: #f7f5f6;
-    margin: 80rpx 0;
+    margin-top: 120rpx;
+    padding-bottom: 120rpx;
 }
 .small_tip{
     height: 30rpx;

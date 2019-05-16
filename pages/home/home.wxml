@@ -4,5 +4,14 @@
   <home-item  wx:for='{{search_list}}' wx:key="index" homeItem="{{ item }}"></home-item>
 </view>
 <footer></footer>
+<view wx:if="{{show_tele}}">
+  <view class="home_background"></view>
+  <image src="../../image/get_telephone.png" class="background_image_phone">
+    <image src="../../image/close.png" class="close_img" bindtap="close"></image>
+    <view class="order_telephone">{{telephone}}</view>
+    <view class="copy_space" bindtap="copy"></view>
+  </image>
+</view>
+
 
 

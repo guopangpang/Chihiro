@@ -62,9 +62,11 @@
 }
 .actually_pay_word{
     font-size: 36rpx;
+    font-weight: bold;
 }
 .actually_pay_money{
     font-size: 36rpx;
+    font-weight: bold;
 }
 .ededed_bar{
     height: 20rpx;

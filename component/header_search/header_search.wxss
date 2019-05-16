@@ -6,7 +6,7 @@
   padding: 0 20rpx;
   justify-content: space-between;
   width: calc(100% - 40rpx);
-  height: 80rpx;
+  height: 120rpx;
   align-items: center;
   justify-content: center;
   background-color: #fff;
@@ -14,10 +14,10 @@
 }
 .header_search_container .search_input{
   width: 650rpx;
-  height: 20rpx;
+  height: 50rpx;
   border: 1px solid white;
-  border-radius:30rpx;
-  padding: 0 20rpx;
+  border-radius:40rpx;
+  padding: 10rpx 40rpx;
   background-color: #ededed;
-  font-size: 20rpx
+  font-size: 24rpx
 }

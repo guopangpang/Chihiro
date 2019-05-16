@@ -13,27 +13,27 @@ Page({
         projectList:[{
             name:'我的能力',
             left_img:'../../image/image.jpg',
-            right_img:'../../image/image2.jpg'
+            right_img:'../../image/back.png'
         },{
             name:'我的问题',
             left_img:'../../image/image.jpg',
-            right_img:'../../image/image2.jpg'
+            right_img:'../../image/back.png'
         },{
             name:'我的订单',
             left_img:'../../image/image.jpg',
-            right_img:'../../image/image2.jpg'
+            right_img:'../../image/back.png'
         },{
             name:'我的评论',
             left_img:'../../image/image.jpg',
-            right_img:'../../image/image2.jpg'
+            right_img:'../../image/back.png'
         },{
             name:'帮助中心',
             left_img:'../../image/image.jpg',
-            right_img:'../../image/image2.jpg'
+            right_img:'../../image/back.png'
         },{
             name:'关于我们',
             left_img:'../../image/image.jpg',
-            right_img:'../../image/image2.jpg'
+            right_img:'../../image/back.png'
         },],
     },
     onLoad(){

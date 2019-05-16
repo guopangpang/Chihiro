@@ -3,7 +3,7 @@
 }
 .service_detail_swiper{
     width: 100vw;
-    height: 85.7vw;
+    height: 100vw;
 }
 .service_detail_swiper_item{
     width: 100vw;

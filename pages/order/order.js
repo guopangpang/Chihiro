@@ -1,7 +1,8 @@
 Page({
     data:{
         name:'订单',
-        order_info:{}
+        order_info:{},
+        isShow:true
     },
     onLoad(){
         let obj = {
@@ -15,6 +16,11 @@ Page({
         };
         this.setData({
             order_info:obj
+        })
+    },
+    updataOrder(){
+        wx.reLaunch({
+            url:'../../pages/home/home?isShow='+ this.data.isShow + '&age=22'
         })
     }
 });
