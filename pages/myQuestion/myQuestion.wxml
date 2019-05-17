@@ -1,0 +1,21 @@
+<!--pages/myQuestion/myQuestion.wxml-->
+<view>
+    <view class="top">
+        <text class="contact">联系方式： 18259463257</text>
+        <text class="modify">修改</text>
+    </view>
+    <block  wx:for="{{questionList}}" wx:key="{{index}}">
+        <view class="question_box">
+            <view class="title">{{item.title}}</view>
+            <view class="content">
+                <view class="desc">{{item.content}}</view>
+                <image src="../../image/logo.png" class="img"></image>
+            </view>
+            <view class="footer">
+                <text class="time">{{item.time}}</text>
+                <text class="time">{{item.status}}</text>
+            </view>
+        </view>
+        <view class="grayLine"></view>
+    </block>
+</view>

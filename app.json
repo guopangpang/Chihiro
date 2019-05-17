@@ -9,7 +9,8 @@
     "pages/question/question",
     "pages/logs/logs",
     "pages/helpCenter/helpCenter",
-    "pages/aboutUs/aboutUs"
+    "pages/aboutUs/aboutUs",
+    "pages/myQuestion/myQuestion"
   ],
   "window": {
     "backgroundTextStyle": "light",
