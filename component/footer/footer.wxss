@@ -15,10 +15,13 @@
   justify-content: center
 }
 .foot_containt .foot_item .foot_item_image{
-  width: 30rpx;
-  height: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
   margin-bottom: 10rpx;
 }
 .foot_containt .foot_item .foot_item_text{
-  font-size: 20rpx
+  font-size: 24rpx
+}
+.color_01A6F6{
+  color: #01A6F6;
 }

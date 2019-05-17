@@ -1,14 +1,14 @@
 <view class='foot_containt'>
   <view class='foot_item' bindtap="gotoHome">
-    <image class='foot_item_image' src='../../image/image.jpg'></image>
-    <text class='foot_item_text'>找人</text>
+    <image class='foot_item_image' src='{{person_img}}'></image>
+    <text class='foot_item_text' style="color:{{color_person}};">找人</text>
   </view>
   <view class='foot_item' bindtap='gotoQuestion'>
-    <image class='foot_item_image' src='../../image/image.jpg'></image>
-    <text class='foot_item_text'>找问题</text>
+    <image class='foot_item_image' src='{{question_img}}'></image>
+    <text class='foot_item_text' style="color:{{color_question}};">找问题</text>
   </view>
   <view class='foot_item' bindtap='gotoMy'>
-    <image class='foot_item_image' src='../../image/image.jpg'></image>
-    <text class='foot_item_text'>我</text>
+    <image class='foot_item_image' src='{{my_img}}'></image>
+    <text class='foot_item_text' style="color:{{color_my}};">我</text>
   </view>
 </view>
