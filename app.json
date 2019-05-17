@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/newQuestion/newQuestion",
+    "pages/myQuestion/myQuestion",
     "pages/my/my",
     "pages/home/home",
     "pages/able/able",
@@ -10,7 +12,6 @@
     "pages/logs/logs",
     "pages/helpCenter/helpCenter",
     "pages/aboutUs/aboutUs",
-    "pages/myQuestion/myQuestion",
     "pages/cropper/cropper"
   ],
   "window": {

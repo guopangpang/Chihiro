@@ -6,16 +6,20 @@
     </view>
     <block  wx:for="{{questionList}}" wx:key="{{index}}">
         <view class="question_box">
-            <view class="title">{{item.title}}</view>
-            <view class="content">
+            <view class="title {{item.status == 0 ? 'colorGray' : 'colorBlack'}}">{{item.title}}</view>
+            <view class="content {{item.status == 0 ? 'colorGray' : 'colorBlack'}}">
                 <view class="desc">{{item.content}}</view>
                 <image src="../../image/logo.png" class="img"></image>
             </view>
             <view class="footer">
                 <text class="time">{{item.time}}</text>
-                <text class="time">{{item.status}}</text>
+                <text class="time">{{item.status == 0 ? '已关闭' : '已开启'}}</text>
             </view>
         </view>
         <view class="grayLine"></view>
     </block>
+    <view class="bottom">
+        <navigator url="/pages/newQuestion/newQuestion" class="button_text">新建问题</navigator>
+        <image src="../../image/bottom_button.png" class="button_bg"></image>
+    </view>
 </view>

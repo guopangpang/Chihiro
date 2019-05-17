@@ -1,0 +1,23 @@
+<!--pages/newQuestion/newQuestion.wxml-->
+<view class="new_question">
+    <view class="main">
+        <view class="title">标题<cell class="tips">*</cell></view>
+        <input placeholder="新建后不可修改" class="input_style input_first"></input>
+        <view class="title">内容<cell class="tips">*</cell></view>
+        <textarea placeholder="点击输入内容" class="input_style input_second"></textarea>
+        <view class="title">附图：</view>
+        <image src="../../image/upload.png" class="upload"></image>
+    </view>
+    <view class="bottom">
+        <view class="button_box">
+            <view>
+                <navigator url="/pages/helpCenter/helpCenter" class="button_text">取消</navigator>
+                <image src="../../image/cancel.png" class="button_bg"></image>
+            </view>
+            <view>
+                <navigator url="/pages/helpCenter/helpCenter" class="button_text">确认</navigator>
+                <image src="../../image/save.png" class="button_bg"></image>
+            </view>
+        </view>
+    </view>
+</view>
