@@ -20,7 +20,7 @@ Page({
     },
     updataOrder(){
         wx.reLaunch({
-            url:'../../pages/home/home?isShow='+ this.data.isShow + '&age=22'
+            url:'../../pages/home/home?isShow='+ this.data.isShow
         })
     }
 });

@@ -20,10 +20,12 @@ Page({
         indicator_dots:true,
         interval:5000,
         indicator_color:'#ededed',
-        indicator_active_color:'#03abf6'
+        indicator_active_color:'#03abf6',
+        pageName:'',
+        isShow:true
     },
     //swiper切换时会调用
-    onLoad(){
+    onLoad(options){
       let obj = {
           headerImg:'../../image/image3.jpg',
           name:'暗*月',
@@ -49,9 +51,17 @@ Page({
       this.setData({
           serviceDetail:obj_service
       });
+        if(options.pageName === 'home'){
+            this.setData({
+                pageName:true
+            })
+        }else if(options.pageName === 'question'){
+            this.setData({
+                pageName:false
+            })
+        }
     },
     pagechange: function (e) {
-        console.log('pagechange',e.detail);
         if ("touch" === e.detail.source) {
             let currentPageIndex = this.data.currentIndex;
             currentPageIndex = (currentPageIndex + 1) % 2;
@@ -76,6 +86,11 @@ Page({
     gotoOrder(){
         wx.navigateTo({
             url:'../../pages/order/order'
+        })
+    },
+    gotoHome(){
+        wx.reLaunch({
+            url:'../../pages/home/home?isShow='+ this.data.isShow
         })
     }
 });
