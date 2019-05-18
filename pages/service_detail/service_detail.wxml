@@ -14,8 +14,13 @@
         <view class="service_detail_title">{{serviceDetail.title}}</view>
         <view class="service_detail_info">{{serviceDetail.info}}</view>
     </view>
-    <review-header reviewHeader="{{review_header}}"></review-header>
-    <review-item reviewItem="{{review}}"></review-item>
+
+    <view style="margin-top: 20rpx" wx:if="{{!pageName}}"></view>
+    <view wx:if="{{pageName}}">
+        <review-header reviewHeader="{{review_header}}"></review-header>
+        <review-item reviewItem="{{review}}"></review-item>
+    </view>
+
     <view class="question_person">
         <view class="question_person_img_name">
             <image class="headerImg" src="{{question_owner.headerImg}}"></image>
@@ -25,6 +30,7 @@
     </view>
 
     <view class="service_detail_liubai"></view>
-    <view class="advisory_soon" bindtap="gotoOrder">立即咨询</view>
+    <view class="advisory_soon" bindtap="gotoOrder" wx:if="{{pageName}}">立即咨询</view>
+    <view class="advisory_soon" bindtap="gotoHome" wx:if="{{!pageName}}">查看详情</view>
 </view>
 

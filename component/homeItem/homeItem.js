@@ -6,15 +6,21 @@ Component({
         }
     },
     data: {
-        // 这里是一些组件内部数据
         someData: {}
     },
     methods: {
-        // 这里是一个自定义方法
         gotoDatail(){
-            wx.navigateTo({
-                url:'../../pages/service_detail/service_detail'
-            })
+            let all_path = getCurrentPages();
+            console.log(all_path[all_path.length-1].route);
+            if(all_path[all_path.length-1].route === 'pages/home/home'){
+                wx.navigateTo({
+                    url:'../../pages/service_detail/service_detail?pageName=' + 'home'
+                })
+            }else if(all_path[all_path.length-1].route === 'pages/question/question'){
+                wx.navigateTo({
+                    url:'../../pages/service_detail/service_detail?pageName=' + 'question'
+                })
+            }
         }
     }
-})
+});
