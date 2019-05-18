@@ -12,11 +12,11 @@
     
 }
 .arrow {
-    width: 30rpx;
-    height: 21rpx;
+    width: 35rpx;
+    height: 35rpx;
     float: right;
     padding-right: 42rpx;
-    padding-top: 55rpx;
+    padding-top: 40rpx;
 }
 .answer {
     width: 86%;
