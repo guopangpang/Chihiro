@@ -1,10 +1,11 @@
 {
   "pages": [
+    "pages/order/order",
+    "pages/home/home",
+    "pages/addReview/addReview",
     "pages/readQuestion/readQuestion",
     "pages/myQuestion/myQuestion",
-    "pages/home/home",
     "pages/able/able",
-    "pages/order/order",
     "pages/my/my",
     "pages/service_detail/service_detail",
     "pages/reviewList/reviewList",

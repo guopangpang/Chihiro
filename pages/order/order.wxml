@@ -1,22 +1,5 @@
 <view class="order_container">
-    <view class="order_header_container">
-        <view class="order_info">订单信息</view>
-        <view class="order_header">
-            <image class="order_image" src="{{order_info.img}}"></image>
-            <view class="order_header_right">
-                <view class="order_title">{{order_info.title}}</view>
-                <view class="handle_pay">
-                    <view class="handle_pay_word">咨询费</view>
-                    <view class="handle_pay_money">{{order_info.handle}}</view>
-                </view>
-            </view>
-        </view>
-        <view class="actually_pay">
-            <view class="actually_pay_word">实付款</view>
-            <view class="actually_pay_money">{{order_info.actuallyPay}}</view>
-        </view>
-    </view>
-    <view class="ededed_bar"></view>
+    <add-review-header order_info="{{order_info}}"></add-review-header>
 
     <view class="order_num">订单编号：{{order_info.order_id}}</view>
     <view class="order_buyer">收款方：{{order_info.buyer}}</view>
