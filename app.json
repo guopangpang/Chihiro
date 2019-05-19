@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/readQuestion/readQuestion",
+    "pages/myQuestion/myQuestion",
     "pages/home/home",
     "pages/able/able",
     "pages/order/order",
@@ -8,10 +10,10 @@
     "pages/reviewList/reviewList",
     "pages/question/question",
     "pages/logs/logs",
-    "pages/helpCenter/helpCenter",
     "pages/aboutUs/aboutUs",
-    "pages/myQuestion/myQuestion",
-    "pages/cropper/cropper"
+    "pages/helpCenter/helpCenter",
+    "pages/cropper/cropper",
+    "pages/newQuestion/newQuestion"
   ],
   "window": {
     "backgroundTextStyle": "light",

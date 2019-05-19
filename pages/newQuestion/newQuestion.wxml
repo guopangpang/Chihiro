@@ -1,0 +1,39 @@
+<!--pages/newQuestion/newQuestion.wxml-->
+<view class="new_question">
+    <view class="main">
+        <view class="title">标题<cell class="tips" wx:if="{{operation == 'new'}}">*</cell></view>
+        <input wx:if="{{operation == 'new'}}" placeholder="新建后不可修改" class="input_style input_first"></input>
+        <view wx:else class="content">加入京东物流部门怎么样？</view>
+        <view class="title">内容<cell class="tips" wx:if="{{operation == 'new'}}">*</cell></view>
+        <textarea wx:if="{{operation == 'new'}}" placeholder="点击输入内容" class="input_style input_second"></textarea>
+        <textarea wx:elif="{{operation == 'edit'}}" placeholder="点击输入内容" class="input_style input_second content question" value="{{content}}"></textarea>
+        <view wx:else class="content question">
+            <view>1：我想要加盟一下云南十里香小锅米线，但是有什么注意s事项，如果来开始，请有经验的前辈指导一下，网上搜的勿扰~</view>
+            <view>2：如果回答得好，费用不是问题，最好能够指导一下我怎么操作，或者针对现在市面上不同的加盟商做一个分析最好！</view>
+        </view>
+        <view class="title">附图：</view>
+        <image src="../../image/upload.png" class="upload"></image>
+        <view wx:if="{{operation !== 'new'}}" class="title">
+            <text>开启状态：</text>
+            <view class="body-view">
+                <switch checked bindchange="switchChange" />
+            </view>
+        </view>
+    </view>
+    <view class="bottom">
+        <view class="button_box">
+            <navigator url="/pages/myQuestion/myQuestion">
+                <view class="button_text">取消</view>
+                <image src="../../image/cancel.png" class="button_bg"></image>
+            </navigator>
+            <navigator url="/pages/helpCenter/helpCenter" wx:if="{{operation == 'check'}}">
+                <view class="button_text">修改</view>
+                <image src="../../image/save.png" class="button_bg"></image>
+            </navigator>
+            <navigator url="/pages/helpCenter/helpCenter" wx:else>
+                <view class="button_text">保存</view>
+                <image src="../../image/save.png" class="button_bg"></image>
+            </navigator>
+        </view>
+    </view>
+</view>

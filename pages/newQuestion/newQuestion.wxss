@@ -1,0 +1,77 @@
+/* pages/newQuestion/newQuestion.wxss */
+.new_question {
+    font-family: SimHei;
+    font-weight: 400;
+}
+.main {
+    width: 92%;
+    margin: 0 auto;
+}
+.title {
+    font-size: 42rpx;
+    color: #808282;
+    margin-top: 36rpx;
+}
+.tips {
+    color: #FD001E;
+    padding-left: 7rpx;
+}
+.content {
+    margin-top: 35rpx;
+    padding-left: 27rpx;
+    font-size: 32rpx;
+    font-family: SimHei;
+    font-weight: 400;
+    color: rgba(0,0,0,1);
+}
+.question {
+    padding-left: 0;
+    line-height: 50rpx;
+}
+.input_style {
+    width: 92%;
+    border: 1rpx solid rgba(178,177,177,1);
+    border-radius: 2rpx;
+    margin-top: 28rpx;
+    padding-left: 27rpx;
+    padding-right: 27rpx;
+}
+.input_first {
+    height: 84rpx;
+    line-height: 84rpx;
+}
+.input_second {
+    height: 376rpx;
+    padding-top: 31rpx;
+}
+.upload {
+    width: 160rpx;
+    height: 158rpx;
+    margin-top: 43rpx;
+}
+.bottom {
+    width: 100%;
+    height: 110rpx;
+    line-height: 110rpx;
+    position: fixed;
+    bottom: 0;
+    background: #F7F7F7;
+}
+.button_box {
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.button_text {
+    position: fixed;
+    padding-left: 98rpx;
+}
+.button_bg {
+    width: 282rpx;
+    height: 78rpx;
+    margin-top: 18rpx;
+}
+.body-view {
+    display: inline-block;
+}

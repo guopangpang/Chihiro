@@ -1,0 +1,28 @@
+<!--pages/readQuestion/readQuestion.wxml-->
+<view>
+    <swiper indicator-active-color='#03AAF6'  indicator-dots="true" autoplay="true">
+        <block wx:for="{{imgs}}" wx:for-index="index" wx:key="swiperItem" wx:for-item="item" >
+            <swiper-item class="swiper-items"  >
+                <image class="swiper-image" src="{{item}}"></image>
+                <button class="button-img" bindtap="start" wx:if="{{index == imgs.length - 1}}" >立即体验</button>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="main">
+        <view class="title">小锅米线加盟有什么流程？</view>
+        <view class="content">
+            <view>1：啊啊啊啊啊啊啊啊啊啊啊啊啊</view>
+            <view class="time">2019年05月12日</view>
+        </view>
+    </view>
+    <view class="grayLine"></view>
+    <view class="author">
+        <image src="../../image/logo.png" class="photo"></image>
+        <text class="name">周*康</text>
+    </view>
+    <view class="grayLine"></view>
+    <view class="bottom">
+        <navigator url="/pages/newQuestion/newQuestion" class="button_text">查看</navigator>
+        <image src="../../image/green_button.png" class="button_bg"></image>
+    </view>
+</view>
