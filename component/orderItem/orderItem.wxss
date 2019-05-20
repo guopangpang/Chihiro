@@ -1,0 +1,39 @@
+.order_item_container{
+    padding: 0 40rpx;
+    background-color: #fff;
+}
+.order_item_title_info_img{
+    display: flex;
+    justify-content: space-between;
+}
+.order_item_title_info{
+
+}
+.order_item_title{
+    font-size: 36rpx;
+    font-weight: bold;
+}
+.order_item_info{
+    display:-webkit-box;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 22rpx;
+    color: #666;
+}
+.order_item_img{
+    width: 160rpx;
+    height: 160rpx;
+}
+.order_item_consule_fee{}
+.order_item_service_fee{}
+.order_item_person_button{}
+.order_item_person{}
+.order_item_person_image{}
+.order_item_person_name{}
+.order_item_button{}
+.order_item_button_telephone{}
+.order_item_button_review{}

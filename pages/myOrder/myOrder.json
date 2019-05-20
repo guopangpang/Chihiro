@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "add-review-header":"../../component/addReviewHeader/addReviewHeader"
+  }
+}

@@ -1,5 +1,4 @@
 function post(url,data,callback) {
-    var _this = this;
     wx.request({
         url: url, //上线的话必须是https，没有appId的本地请求貌似不受影响
         method: 'POST', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
@@ -30,4 +29,4 @@ function post(url,data,callback) {
 
 module.exports = {
     post:post
-}
+};
