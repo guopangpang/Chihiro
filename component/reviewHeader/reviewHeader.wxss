@@ -26,5 +26,5 @@
 }
 .review_all{
     font-size: 30rpx;
-    color: #2fb1d3;
+    color: #03AAF6;
 }

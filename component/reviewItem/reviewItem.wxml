@@ -1,13 +1,16 @@
 <view class="review_item_container">
     <view class="review_item_second_body">
-        <image class="review_person_headerImg" src="{{reviewItem.headerImg}}"></image>
-        <view class="review_item_thrid_body">
-            <text class="review_person_name">{{reviewItem.name}}</text>
-            <view class="review_item_forue_body">
-                <text class="review_time">{{reviewItem.time}}</text>
-                <text class="review_title">{{reviewItem.title}}</text>
+        <view class="header_time">
+            <image class="review_person_headerImg" src="{{reviewItem.headerImg}}"></image>
+            <view class="review_item_thrid_body">
+                <text class="review_person_name">{{reviewItem.name}}</text>
+                <view class="review_item_forue_body">
+                    <text class="review_time">{{reviewItem.time}}</text>
+                    <text class="review_title">{{reviewItem.title}}</text>
+                </view>
             </view>
         </view>
+        <view class="more_review" wx:if="{{add_review}}" bindtap="gotoAddReview">追评</view>
     </view>
     <view class="review_info">{{reviewItem.info}}</view>
 </view>

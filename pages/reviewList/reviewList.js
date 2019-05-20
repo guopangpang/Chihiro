@@ -4,10 +4,11 @@ Page({
         review_header:{
             total:'106',
             present:'95%',
-            showAll:false
+            showAll:false,
         },
+        add_review:true
     },
-    onLoad(){
+    onLoad(options){
         this.changeReviewList()
     },
     changeReviewList(){

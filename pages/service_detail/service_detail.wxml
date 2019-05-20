@@ -18,7 +18,7 @@
     <view style="margin-top: 20rpx" wx:if="{{!pageName}}"></view>
     <view wx:if="{{pageName}}">
         <review-header reviewHeader="{{review_header}}"></review-header>
-        <review-item reviewItem="{{review}}"></review-item>
+        <review-item reviewItem="{{review}}" add_review="{{add_review}}"></review-item>
     </view>
 
     <view class="question_person">

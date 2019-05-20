@@ -1,4 +1,4 @@
 <view class="review_list_container">
     <review-header reviewHeader="{{review_header}}"></review-header>
-    <review-item wx:for="{{reviewList}}" wx:key="{{index}}" reviewItem="{{item}}"></review-item>
+    <review-item wx:for="{{reviewList}}" wx:key="{{index}}" reviewItem="{{item}}" add_review="{{add_review}}"></review-item>
 </view>

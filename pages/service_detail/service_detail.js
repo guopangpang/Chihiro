@@ -22,7 +22,8 @@ Page({
         indicator_color:'#ededed',
         indicator_active_color:'#03abf6',
         pageName:'',
-        isShow:true
+        isShow:true,
+        add_review:false
     },
     //swiper切换时会调用
     onLoad(options){

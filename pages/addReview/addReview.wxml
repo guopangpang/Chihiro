@@ -1,7 +1,7 @@
 <view class="add_review_header">
     <add-review-header order_info="{{order_info}}"></add-review-header>
     <view class="add_review_review">
-        <view class="star_header">
+        <view class="star_header" wx:if="{{!more_review}}">
             <text class="star_word">服务质量：</text>
             <image class="review_star" wx:for="{{star_list}}" wx:key="index" src="{{item}}" id="{{index}}" bindtap="changeStar_bind"></image>
         </view>
@@ -11,6 +11,9 @@
         </view>
     </view>
 </view>
-<view class="updata_review">
+<view class="updata_review" wx:if="{{!more_review}}">
     <view class="updata_review_button">提交评论</view>
+</view>
+<view class="updata_review" wx:if="{{more_review}}">
+    <view class="add_review_button">追加评论</view>
 </view>

@@ -9,7 +9,17 @@
 .review_item_second_body{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-top: 20rpx;
+}
+.header_time{
+    display: flex;
+    align-items: center;
+}
+.more_review{
+    margin-top: -20rpx;
+    font-size: 20rpx;
+    color: #03AAF6;
 }
 .review_person_headerImg{
     width: 60rpx;

@@ -6,13 +6,18 @@ Page({
     data: {
         order_info:{},
         star_list:[],
-        review:''
+        review:'',
+        more_review:true
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
+        console.log(options);
+        this.setData({
+            more_review:options.more_review
+        });
         let obj = {
             title:'北京大学自动化学院',
             img:'../../image/image4.jpg',
@@ -39,7 +44,7 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
-        console.log(this.data.star_list)
+
     },
 
     /**
@@ -94,5 +99,11 @@ Page({
     changeStar_bind(e){
         let num = parseInt(e.currentTarget.id) + 1;
         this.changeStar(num)
+    },
+    add_review_button(){
+
+    },
+    updata_review_button(){
+
     }
 });

@@ -1,14 +1,14 @@
 {
   "pages": [
-    "pages/order/order",
+    "pages/reviewList/reviewList",
     "pages/home/home",
+    "pages/order/order",
     "pages/addReview/addReview",
     "pages/readQuestion/readQuestion",
     "pages/myQuestion/myQuestion",
     "pages/able/able",
     "pages/my/my",
     "pages/service_detail/service_detail",
-    "pages/reviewList/reviewList",
     "pages/question/question",
     "pages/logs/logs",
     "pages/aboutUs/aboutUs",
