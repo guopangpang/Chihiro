@@ -1,0 +1,6 @@
+<view>
+    <view class="my_order_tab">
+        <view class="my_order_tab_item">购买</view>
+        <view class="my_order_tab_item">收入</view>
+    </view>
+</view>
