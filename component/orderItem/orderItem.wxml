@@ -1,23 +1,33 @@
 <view class="order_item_container">
     <view class="order_item_title_info_img">
         <view class="order_item_title_info">
-            <view class="order_item_title">这是标题</view>
-            <view class="order_item_info">这是详情这是详情这是详情这是详情这是详情这是详情</view>
+            <view class="order_item_title">{{order_item.title}}</view>
+            <view class="order_item_info">{{order_item.info}}</view>
         </view>
-        <view class="order_item_img" src="../../image/image.jpg"></view>
+        <image class="order_item_img" src="{{order_item.order_image}}"></image>
     </view>
-    <view class="order_item_consule_fee"></view>
+    <view class="order_item_consule_fee">
+        <view style="width: 140rpx">咨询费</view>
+        <view style="margin-left: -120rpx;width: 200rpx">￥{{order_item.consule_fee}}</view>
+        <view >{{order_item.consule_time}}</view>
+        <view>已支付</view>
+    </view>
 
-    <view class="order_item_service_fee"></view>
+    <view class="order_item_service_fee">
+        <view style="width: 140rpx">服务费</view>
+        <view style="margin-left: -120rpx;width: 200rpx">￥180.00</view>
+        <view >2019-11-21 10:39:21</view>
+        <view>已支付</view>
+    </view>
 
     <view class="order_item_person_button">
         <view class="order_item_person">
-            <image class="order_item_person_image"></image>
-            <view class="order_item_person_name"></view>
+            <image class="order_item_person_image" src="../../image/image.jpg"></image>
+            <view class="order_item_person_name">{{order_item.person_name}}</view>
         </view>
         <view class="order_item_button">
-            <view class="order_item_button_telephone"></view>
-            <view class="order_item_button_review"></view>
+            <view class="order_item_button_telephone">联系我们</view>
+            <view class="order_item_button_review">评论</view>
         </view>
     </view>
 </view>

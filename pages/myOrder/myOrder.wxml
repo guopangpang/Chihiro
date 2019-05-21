@@ -1,6 +1,16 @@
-<view>
+<view class="myOrder_container">
     <view class="my_order_tab">
-        <view class="my_order_tab_item">购买</view>
-        <view class="my_order_tab_item">收入</view>
+        <view class="my_order_tab_item" bindtap="buy">
+            <view class= "{{!isIncome?'wy_order_item_word red_color':'wy_order_item_word'}}">购买</view>
+        </view>
+        <view class="my_order_tab_item" bindtap="income">
+            <view class= "{{isIncome?'wy_order_item_word red_color':'wy_order_item_word'}}">收入</view>
+        </view>
+    </view>
+    <scroll-view class="my_order_scroll" wx:if="{{!isIncome}}" bindscroll="scroll" scroll-y="true" bindscrolltolower="updata_buy_list">
+        <order-item wx:for="{{order_list}}" wx:key="{{index}}" order_item="{{item}}"></order-item>
+    </scroll-view>
+    <view wx:if="{{isIncome}}">
+        <view>souru</view>
     </view>
 </view>

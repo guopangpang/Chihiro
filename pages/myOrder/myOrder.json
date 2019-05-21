@@ -1,5 +1,5 @@
 {
   "usingComponents":{
-    "add-review-header":"../../component/addReviewHeader/addReviewHeader"
+    "order-item":"../../component/orderItem/orderItem"
   }
 }
