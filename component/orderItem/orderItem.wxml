@@ -15,8 +15,8 @@
 
     <view class="order_item_service_fee">
         <view style="width: 140rpx">服务费</view>
-        <view style="margin-left: -120rpx;width: 200rpx">￥180.00</view>
-        <view >2019-11-21 10:39:21</view>
+        <view style="margin-left: -120rpx;width: 200rpx">￥{{order_item.service_fee}}</view>
+        <view >{{order_item.service_time}}</view>
         <view>已支付</view>
     </view>
 
@@ -25,9 +25,13 @@
             <image class="order_item_person_image" src="../../image/image.jpg"></image>
             <view class="order_item_person_name">{{order_item.person_name}}</view>
         </view>
-        <view class="order_item_button">
+        <view class="order_item_button" wx:if="{{order_item.order_status == '1'}}">
             <view class="order_item_button_telephone">联系我们</view>
             <view class="order_item_button_review">评论</view>
+        </view>
+        <view class="order_item_button" wx:if="{{order_item.order_status == '2'}}">
+            <view class="order_item_button_telephone" bindtap="show_change_price">修改价格</view>
+            <view class="order_item_button_review" bindtap="send_order">发送订单</view>
         </view>
     </view>
 </view>

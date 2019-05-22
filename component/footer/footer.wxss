@@ -6,7 +6,8 @@
   height: 120rpx;
   display: flex;
   justify-content: space-around;
-  background-color: #f7f7f7
+  background-color: #f7f7f7;
+  z-index: 1000;
 }
 .foot_containt .foot_item{
   display: flex;

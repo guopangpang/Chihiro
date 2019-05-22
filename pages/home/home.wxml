@@ -1,9 +1,10 @@
 <header-search></header-search>
-<view class='home_container'>
+<scroll-view class='home_container' bindscroll="" scroll-y="true" bindscrolltolower="">
   <!--<view class='small_tip'>没有满意的搜索结果？试试换一下其他关键词搜索</view>-->
   <home-item  wx:for='{{search_list}}' wx:key="index" homeItem="{{ item }}"></home-item>
-</view>
+</scroll-view>
 <footer></footer>
+
 <view wx:if="{{show_tele}}">
   <view class="home_background"></view>
   <image src="../../image/get_telephone.png" class="background_image_phone">

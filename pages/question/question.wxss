@@ -1,7 +1,7 @@
 .question_container{
     background-color: #f7f5f6;
-    margin-top: 120rpx;
-    padding-bottom: 120rpx;
+    margin: 120rpx 0;
+    height: calc(100vh - 240rpx);
 }
 .small_tip{
     height: 30rpx;

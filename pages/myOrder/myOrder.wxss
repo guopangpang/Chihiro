@@ -15,7 +15,7 @@
     width: 50vw;
     height: 80rpx;
 }
-.wy_order_item_word{
+.my_order_item_word{
     line-height: 80rpx;
     width: 20vw;
     margin: 0 auto;
@@ -31,4 +31,80 @@
 .my_order_scroll{
     height: calc(100vh - 80rpx);
     margin: 80rpx 0 0 0;
+}
+.my_order_isLoading{
+    width: 100vw;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    font-size: 36rpx;
+    color: #ededed;
+}
+
+.order_item_background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+}
+.dialog{
+    position: relative;
+    background-color:#fff;
+    width: 580rpx;
+    height: 355rpx;
+}
+.change_price_dialog{
+    width: 500rpx;
+    height: 60rpx;
+    margin: 30rpx 40rpx;
+    line-height: 60rpx;
+    font-size: 40rpx;
+    text-align: center;
+}
+.old_order_price{
+    width: 500rpx;
+    height: 60rpx;
+    margin: 0 40rpx;
+    line-height: 30rpx;
+    font-size: 30rpx;
+}
+.change_input{
+    display: flex;
+    align-items: center;
+    width: 500rpx;
+    height: 60rpx;
+    padding: 0 40rpx 40rpx;
+    border-bottom: 1px solid #ededed;
+}
+.dialog_word{
+    font-size: 30rpx;
+}
+.dialog_input{
+    padding: 0 20rpx;
+    font-size: 30rpx;
+    border: 1px solid #ededed;
+}
+.order_dialog_button_list{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 80rpx;
+}
+.comfirm{
+    line-height: 80rpx;
+    width: 50%;
+    border-right: 1px solid #ededed;
+    text-align: center;
+}
+.cancel{
+    line-height: 80rpx;
+    width: 50%;
+    text-align: center;
 }

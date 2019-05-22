@@ -1,6 +1,5 @@
 <header-search></header-search>
-<view class='question_container'>
-    <!--<view class='small_tip'>没有满意的搜索结果？试试换一下其他关键词搜索</view>-->
+<scroll-view class='question_container' bindscroll="" scroll-y="true" bindscrolltolower="">
     <home-item wx:for='{{questionList}}' wx:key="index" homeItem="{{ item }}"></home-item>
-</view>
+</scroll-view>
 <footer></footer>

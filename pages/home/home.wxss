@@ -1,7 +1,8 @@
 .home_container{
   background-color: #f7f5f6;
-  margin-top: 120rpx;
-  padding-bottom: 120rpx;
+  height: calc(100vh - 240rpx);
+  margin: 120rpx 0;
+  /*padding-bottom: 120rpx;*/
 }
 .small_tip{
   height: 30rpx;
@@ -16,6 +17,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: 1001;
   background-color: #000;
   opacity: 0.4;
 }
@@ -25,6 +27,7 @@
   left: 12vw;
   width: 80vw;
   height: 106vw;
+  z-index: 1002;
 }
 .close_img{
   position: absolute;

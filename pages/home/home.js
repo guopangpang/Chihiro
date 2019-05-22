@@ -61,7 +61,7 @@ Page({
             header_img:'../../image/image.jpg',
             img:'../../image/image.jpg'
         }],
-        show_tele:false,
+        show_tele:true,
         telephone:'15111111111'
     },
     //事件处理函数

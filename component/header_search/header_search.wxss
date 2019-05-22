@@ -10,7 +10,8 @@
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  font-size: 25rpx
+  font-size: 25rpx;
+  z-index: 1000;
 }
 .header_search_container .search_input{
   width: 650rpx;
