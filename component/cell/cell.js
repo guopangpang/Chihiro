@@ -15,6 +15,11 @@ Component({
             wx.navigateTo({
                 url:'../../pages/my/my'
             })
+        },
+        goto(){
+            wx.navigateTo({
+                url:this.properties.cell_info.url
+            })
         }
     }
 });

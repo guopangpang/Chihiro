@@ -4,7 +4,7 @@
     </view>
     <view class="cell_name">{{cell_info.name}}</view>
     <view class="cell_right">
-        <image class="cell_right_img" src="{{cell_info.right_img}}"></image>
+        <image class="cell_right_img" src="{{cell_info.right_img}}" bindtap="goto"></image>
     </view>
 
 </view>

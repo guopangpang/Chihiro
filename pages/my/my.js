@@ -21,11 +21,13 @@ Page({
         },{
             name:'我的订单',
             left_img:'../../image/my_order.png',
-            right_img:'../../image/back.png'
+            right_img:'../../image/back.png',
+            url:'../../pages/myOrder/myOrder'
         },{
             name:'我的评论',
             left_img:'../../image/my_review.png',
-            right_img:'../../image/back.png'
+            right_img:'../../image/back.png',
+            url:'../../pages/reviewList/reviewList'
         },{
             name:'帮助中心',
             left_img:'../../image/help.png',
@@ -34,7 +36,7 @@ Page({
             name:'关于我们',
             left_img:'../../image/aboutus.png',
             right_img:'../../image/back.png'
-        },],
+        }],
     },
     onLoad(){
         console.log('onLoad');
