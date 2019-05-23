@@ -6,61 +6,7 @@ var http = require("../../utils/http");
 Page({
     data: {
         name:'找人',
-        search_list:[{
-            title:'清华自动化机电学系',
-            info:'这里的专业为何数一数二，与北大的自动化有什么区别，听听师兄给你耐心解答',
-            name:'暗*月',
-            time:'2019年3月24',
-            good_present:'95%',
-            pay_person:'233',
-            header_img:'../../image/image.jpg',
-            img:'../../image/image.jpg'
-        },{
-            title:'清华自动化机电学系',
-            info:'这里的专业为何数一数二，与北大的自动化有什么区别，听听师兄给你耐心解答',
-            name:'暗*月',
-            time:'2019年3月24',
-            good_present:'95%',
-            pay_person:'233',
-            header_img:'../../image/image.jpg',
-            img:'../../image/image.jpg'
-        },{
-            title:'清华自动化机电学系',
-            info:'这里的专业为何数一数二，与北大的自动化有什么区别，听听师兄给你耐心解答',
-            name:'暗*月',
-            time:'2019年3月24',
-            good_present:'95%',
-            pay_person:'233',
-            header_img:'../../image/image.jpg',
-            img:'../../image/image.jpg'
-        },{
-            title:'清华自动化机电学系',
-            info:'这里的专业为何数一数二，与北大的自动化有什么区别，听听师兄给你耐心解答',
-            name:'暗*月',
-            time:'2019年3月24',
-            good_present:'95%',
-            pay_person:'233',
-            header_img:'../../image/image.jpg',
-            img:'../../image/image.jpg'
-        },{
-            title:'清华自动化机电学系',
-            info:'这里的专业为何数一数二，与北大的自动化有什么区别，听听师兄给你耐心解答',
-            name:'暗*月',
-            time:'2019年3月24',
-            good_present:'95%',
-            pay_person:'233',
-            header_img:'../../image/image.jpg',
-            img:'../../image/image.jpg'
-        },{
-            title:'清华自动化机电学系',
-            info:'这里的专业为何数一数二，与北大的自动化有什么区别，听听师兄给你耐心解答',
-            name:'暗*月',
-            time:'2019年3月24',
-            good_present:'95%',
-            pay_person:'233',
-            header_img:'../../image/image.jpg',
-            img:'../../image/image.jpg'
-        }],
+        search_list:[],
         show_tele:false,
         telephone:'15111111111'
     },
@@ -71,6 +17,7 @@ Page({
                 show_tele:options.isShow
             });
         }
+        this.getHomelist()
         // if (app.globalData.userInfo) {
         //     this.setData({
         //         userInfo: app.globalData.userInfo,
@@ -97,11 +44,10 @@ Page({
         //         }
         //     })
         // }
-        this.getHomelist()
     },
     getUserInfo: function(e) {
-        console.log(e)
-        app.globalData.userInfo = e.detail.userInfo
+        console.log(e);
+        app.globalData.userInfo = e.detail.userInfo;
         this.setData({
             userInfo: e.detail.userInfo,
             hasUserInfo: true
@@ -125,6 +71,21 @@ Page({
         })
     },
     getHomelist(){
-
+        let obj = {
+            title:'清华自动化机电学系',
+            info:'这里的专业为何数一数二，与北大的自动化有什么区别，听听师兄给你耐心解答',
+            name:'暗*月',
+            time:'2019年3月24',
+            good_present:'95%',
+            pay_person:'233',
+            header_img:'../../image/image.jpg',
+            img:'../../image/image.jpg'
+        };
+        for(let i=0;i<6;i++){
+          this.data.search_list.push(obj)
+        }
+        this.setData({
+            search_list:this.data.search_list
+        })
     }
 });

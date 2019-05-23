@@ -22,6 +22,15 @@ Page({
         indicator_color:'#ededed',
         indicator_active_color:'#03abf6',
         pageName:'',
+        price_list:[{
+            name:'咨询费',
+            checked:false,
+            value:1
+        },{
+            name:'服务费',
+            checked:false,
+            value:2
+        }],
         isShow:true,
         add_review:false
     },
@@ -93,5 +102,8 @@ Page({
         wx.reLaunch({
             url:'../../pages/home/home?isShow='+ this.data.isShow
         })
+    },
+    checkboxChange(e) {
+        console.log('checkbox发生change事件，携带value值为：', e.detail.value)
     }
 });

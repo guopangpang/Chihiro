@@ -6,7 +6,7 @@ Page({
             present:'95%',
             showAll:false,
         },
-        add_review:true
+        add_review:false
     },
     onLoad(options){
         this.changeReviewList()

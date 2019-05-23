@@ -1,3 +1,6 @@
 .review_list_container{
     background-color: #ededed;
 }
+.review_list_scroll{
+    height: 100vh;
+}

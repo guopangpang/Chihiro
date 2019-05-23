@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/serviceDetail/serviceDetail",
     "pages/home/home",
     "pages/myOrder/myOrder",
     "pages/reviewList/reviewList",
@@ -9,7 +10,6 @@
     "pages/myQuestion/myQuestion",
     "pages/able/able",
     "pages/my/my",
-    "pages/service_detail/service_detail",
     "pages/question/question",
     "pages/logs/logs",
     "pages/aboutUs/aboutUs",

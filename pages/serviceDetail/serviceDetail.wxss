@@ -1,5 +1,6 @@
 .service_detail_body{
     background-color: #ededed;
+    margin-bottom: 100rpx;
 }
 .service_detail_swiper{
     width: 100vw;
@@ -91,15 +92,57 @@
     height: 300rpx;
     background-color: #fff;
 }
-.advisory_soon{
+.checkbox_group{
+    background-color: #fff;
+    color: orange;
+    padding: 0 40rpx;
+    margin-bottom: 20rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+}
+.checkbox_group .wx-checkbox-input{
+    border-radius: 3rpx;
+    height: 26rpx;
+    width: 26rpx;
+    margin-bottom: 8rpx;
+    color: orange;
+    /* 自定义样式.... */
+}
+.checkbox_label{
+    font-size: 30rpx;
+    font-weight: bold;
+}
+.checkbox_item{
+
+}
+.updata_advisory{
     position: fixed;
     bottom: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    width: 100vw;
+    height: 100rpx;
+}
+.updata_advisory_button_orange{
     height: 80rpx;
+    width: 60vw;
+    border-radius: 60rpx;
+    background-color: orange;
     line-height: 80rpx;
-    width: 100%;
-    background-color: #eb5000;
-    color: #fff;
-    font-size: 36rpx;
     text-align: center;
+    font-size: 36rpx;
+    color: #fff;
+}
+.updata_advisory_button_green{
+    height: 80rpx;
+    width: 60vw;
+    border-radius: 60rpx;
+    background-color: green;
+    line-height: 80rpx;
+    text-align: center;
+    font-size: 36rpx;
+    color: #fff;
 }

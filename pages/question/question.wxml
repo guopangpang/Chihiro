@@ -1,5 +1,5 @@
 <header-search></header-search>
-<scroll-view class='question_container' bindscroll="" scroll-y="true" bindscrolltolower="">
+<scroll-view class='question_container' bindscroll="" scroll-y="true" bindscrolltolower="getQuestionList">
     <home-item wx:for='{{questionList}}' wx:key="index" homeItem="{{ item }}"></home-item>
 </scroll-view>
 <footer></footer>

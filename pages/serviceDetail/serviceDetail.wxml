@@ -29,8 +29,20 @@
         <view class="find_service" bindtap="gotoAbleList">查看服务</view>
     </view>
 
+    <checkbox-group class="checkbox_group" bindchange="checkboxChange">
+        <label class="checkbox_label" wx:for="{{price_list}}">
+            <checkbox class="checkbox_item" value="{{item.value}}" checked="{{item.checked}}" />
+            {{item.name}}
+        </label>
+    </checkbox-group>
+
     <view class="service_detail_liubai"></view>
-    <view class="advisory_soon" bindtap="gotoOrder" wx:if="{{pageName}}">立即咨询</view>
-    <view class="advisory_soon" bindtap="gotoHome" wx:if="{{!pageName}}">查看详情</view>
+
+    <view class="updata_advisory" wx:if="{{!pageName}}">
+        <view class="updata_advisory_button_orange" bindtap="gotoHome">支付</view>
+    </view>
+    <view class="updata_advisory" wx:if="{{pageName}}">
+        <view class="updata_advisory_button_green" bindtap="gotoOrder">查看</view>
+    </view>
 </view>
 
