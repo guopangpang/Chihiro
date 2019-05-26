@@ -1,16 +1,16 @@
 <view class='my_containter'>
   <view class='my_header'>
-    <view class='my_back'>千寻</view>
+    <view class='my_back'>个人中心</view>
     <view class='my_header_img'>
       <image class='my_image' src='{{person.headerImg}}'></image>
       <text class='my_name'>{{person.name}}</text>
     </view>
     <view class='pay_info'>
       <view class='money_info'>
-        <view class='yu_e'>余额：￥{{person.balance}}</view>
-        <view class='leiji'>累计：￥{{person.grandTotal}}</view>
+        <view class='yu_e'>累计总额：￥{{person.balance}}</view>
+        <!--<view class='leiji'>累计：￥{{person.grandTotal}}</view>-->
       </view>
-      <view class='mingxi'>明细</view>
+      <view class='mingxi' bindtap="goto_billing">明细</view>
       <view class='tixian'>提现</view>
     </view>
   </view>

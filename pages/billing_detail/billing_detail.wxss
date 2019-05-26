@@ -1,0 +1,10 @@
+.billing_detail_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40rpx;
+    border-bottom: 1px solid #ededed;
+    height: 100rpx;
+    font-size: 34rpx;
+    font-weight: bold;
+}

@@ -1,0 +1,7 @@
+<view>
+    <view class="billing_detail_header">
+        <view>余额：￥{{balance}}</view>
+        <view>可提现金额：￥{{cash_withdrawal_amount}}</view>
+    </view>
+    <billing-cell></billing-cell>
+</view>

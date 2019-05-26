@@ -1,0 +1,7 @@
+<view class="billing_cell_container">
+    <view>
+        <view class="billing_cell_name">北京大学自动化了解</view>
+        <view class="billing_cell_time">2019-04-22 12:23:34</view>
+    </view>
+    <view class="{{money>0?'billing_cell_money_red':'billing_cell_money_green'}}">-50</view>
+</view>

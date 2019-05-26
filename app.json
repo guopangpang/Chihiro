@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/serviceDetail/serviceDetail",
     "pages/home/home",
+    "pages/billing_detail/billing_detail",
+    "pages/serviceDetail/serviceDetail",
     "pages/myOrder/myOrder",
     "pages/reviewList/reviewList",
     "pages/order/order",

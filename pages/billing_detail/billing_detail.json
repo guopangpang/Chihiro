@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "billing-cell":"../../component/billing_cell/billing_cell"
+  }
+}
