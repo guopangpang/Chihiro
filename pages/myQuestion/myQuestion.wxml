@@ -5,7 +5,7 @@
         <text class="modify">修改</text>
     </view>
     <block  wx:for="{{questionList}}" wx:key="{{index}}">
-        <view class="question_box">
+        <navigator url="{{item.url}}" class="question_box">
             <view class="title {{item.status == 0 ? 'colorGray' : 'colorBlack'}}">{{item.title}}</view>
             <view class="content {{item.status == 0 ? 'colorGray' : 'colorBlack'}}">
                 <view class="desc">{{item.content}}</view>
@@ -15,7 +15,7 @@
                 <text class="time">{{item.time}}</text>
                 <text class="time">{{item.status == 0 ? '已关闭' : '已开启'}}</text>
             </view>
-        </view>
+        </navigator>
         <view class="grayLine"></view>
     </block>
     <view class="bottom">

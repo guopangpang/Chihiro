@@ -6,7 +6,7 @@
         <text class="modify">修改</text>
     </view>
     <block  wx:for="{{questionList}}" wx:key="{{index}}">
-        <view class="question_box">
+        <navigator url="{{item.url}}" class="question_box">
             <view class="title colorBlack">{{item.title}}</view>
             <view class="content colorBlack">
                 <view class="desc">{{item.content}}</view>
@@ -17,11 +17,11 @@
                 <text class="time">{{item.time}}</text>
                 <text class="time">{{item.count}}人付款</text>
             </view>
-        </view>
+        </navigator>
         <view class="grayLine"></view>
     </block>
     <view class="bottom">
-        <navigator url="/pages/newQuestion/newQuestion" class="button_text">新建能力</navigator>
+        <navigator url="/pages/newCapacity/newCapacity" class="button_text">新建能力</navigator>
         <image src="../../image/bottom_button.png" class="button_bg"></image>
     </view>
 </view>
