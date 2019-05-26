@@ -1,0 +1,23 @@
+.billing_cell_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120rpx;
+    padding: 0 40rpx;
+    border-bottom: 1px solid #ededed;
+}
+.billing_cell_name{
+    font-size: 32rpx;
+    font-weight: bold;
+}
+.billing_cell_time{
+    margin-top: 10rpx;
+    font-size: 24rpx;
+    color: #737373;
+}
+.billing_cell_money_red{
+    color: #FF0030;
+}
+.billing_cell_money_green{
+    color: #04A704;
+}

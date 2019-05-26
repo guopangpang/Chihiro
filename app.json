@@ -1,24 +1,25 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/able/able",
+    "pages/billing_detail/billing_detail",
+    "pages/serviceDetail/serviceDetail",
+    "pages/myOrder/myOrder",
+    "pages/reviewList/reviewList",
     "pages/order/order",
+    "pages/addReview/addReview",
+    "pages/readQuestion/readQuestion",
+    "pages/myQuestion/myQuestion",
+    "pages/able/able",
     "pages/my/my",
     "pages/service_detail/service_detail",
-    "pages/reviewList/reviewList",
     "pages/question/question",
     "pages/logs/logs",
     "pages/aboutUs/aboutUs",
     "pages/helpCenter/helpCenter",
     "pages/cropper/cropper",
     "pages/newQuestion/newQuestion",
-    "pages/myOrder/myOrder",
-    "pages/serviceDetail/serviceDetail",
-    "pages/addReview/addReview",
     "pages/newCapacity/newCapacity",
-    "pages/myCapacity/myCapacity",
-    "pages/myQuestion/myQuestion",
-    "pages/readQuestion/readQuestion"
+    "pages/myCapacity/myCapacity"
   ],
   "window": {
     "backgroundTextStyle": "light",

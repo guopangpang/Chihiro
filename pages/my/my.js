@@ -64,5 +64,10 @@ Page({
     },
     onHide(){
         console.log('onHide')
+    },
+    goto_billing(){
+        wx.navigateTo({
+            url:"../../pages/billing_detail/billing_detail"
+        })
     }
 });

@@ -1,0 +1,9 @@
+Page({
+    data:{
+        balance:'1200.00',
+        cash_withdrawal_amount:'15.00'
+    },
+    onLoad(options){
+        console.log(options)
+    }
+});
