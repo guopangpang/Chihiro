@@ -13,11 +13,13 @@ Page({
         projectList:[{
             name:'我的能力',
             left_img:'../../image/my_able.png',
-            right_img:'../../image/back.png'
+            right_img:'../../image/back.png',
+            url: '../../pages/myCapacity/myCapacity'
         },{
             name:'我的问题',
             left_img:'../../image/my_question.png',
-            right_img:'../../image/back.png'
+            right_img: '../../image/back.png',
+            url: '../../pages/myQuestion/myQuestion'
         },{
             name:'我的订单',
             left_img:'../../image/my_order.png',
@@ -31,11 +33,13 @@ Page({
         },{
             name:'帮助中心',
             left_img:'../../image/help.png',
-            right_img:'../../image/back.png'
+            right_img: '../../image/back.png',
+            url: '../../pages/helpCenter/helpCenter'
         },{
             name:'关于我们',
             left_img:'../../image/aboutus.png',
-            right_img:'../../image/back.png'
+            right_img: '../../image/back.png',
+            url: '../../pages/aboutUs/aboutUs'
         }],
     },
     onLoad(){
